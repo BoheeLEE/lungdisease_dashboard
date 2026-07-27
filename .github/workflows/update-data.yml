@@ -1,0 +1,29 @@
+name: Process CSV data
+on:
+  push:
+    paths:
+      - "data/*.csv"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Convert CSV to JSON
+        shell: pwsh
+        run: ./data/data-transform.ps1
+
+      - name: Commit updated JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update data.json from data.csv
+          file_pattern: data/data.json
