@@ -1,27 +1,52 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Type-2 Diabetes Lung Disease Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/virtual-webgl@1.0.6/src/virtual-webgl.js"></script>
+    <script src="https://cdn.plot.ly/plotly-3.7.0.min.js" charset="utf-8"></script>
     <script src="main.js" defer></script>
   </head>
   <body>
     <header></header>
     <main>
       <h1>Type-2 Diabetes Lung Disease Dashboard</h1>
+      <p>
+        This dashboard provides insights into the relationship between Type-2
+        Diabetes and Lung Disease. Use the filters to explore the data and
+        visualise trends.
+      </p>
       <section>
         <h2>Dashboard</h2>
-        <div class="dashboard-container">
-          <div class="filters" id="filters">
-            <h3>Filter by:</h3>
-            <button id="reset-filters" type="button">Reset all</button>
-          </div>
-          <div class="dashboard" id="dashboard">
+        <div class="dashboard">
+          <search>
+            <form id="filters" class="dashboard__filters">
+              <fieldset class="filters-container">
+                <legend>Filter by:</legend>
+              </fieldset>
+
+              <button id="reset-filters" type="reset">Reset all</button>
+            </form>
+            <p id="num-results-message"></p>
+          </search>
+          <figure class="dashboard__graph" id="graph">
+            <table class="dashboard__graph-table">
+              <thead>
+                <tr data-theader="legend">
+                  <th></th>
+                  <th>Exposures</th>
+                </tr>
+                <tr data-theader="columns"></tr>
+              </thead>
+              <tbody>
+                
+              </tbody>
+            </table>
             <!-- Implement skeleton loader -->
-          </div>
-          <div class="graph" id="graph">
+          </figure>
+          <div class="dashboard__table" id="table">
             <!-- Implement skeleton loader -->
           </div>
         </div>
