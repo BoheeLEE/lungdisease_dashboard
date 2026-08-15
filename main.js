@@ -396,16 +396,11 @@ const renderGraph = (
     // autosize: false,
     margin: { l: 10, r: 10, t: 15, b: 35 },
     plot_bgcolor: "#f9f9f9",
-    xaxis: {
-      fixedrange: true,
-      range: [0.3, 2.0],
-      tickVals: [0.5, 1.0, 1.5, 2.0],
-      font: { size: 8 },
-      automargin: true,
-      autorange: "nonnegative",
-      shapes: [
+    shapes: [
         {
           type: "line",
+          xref: "x",
+          yref: "paper",
           x0: 1.0,
           y0: 0.0,
           x1: 1.0,
@@ -413,6 +408,14 @@ const renderGraph = (
           line: { color: "#6b0101", width: 1.2, dash: "dot" },
         },
       ],
+    xaxis: {
+      fixedrange: true,
+      range: [0.3, 2.0],
+      tickVals: [0.5, 1.0, 1.5, 2.0],
+      font: { size: 8 },
+      automargin: true,
+      autorange: "nonnegative",
+      
     },
     yaxis: {
       fixedrange: true,
