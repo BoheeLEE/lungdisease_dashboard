@@ -68,7 +68,6 @@ const TABLE_COLUMN_HEADINGS = /** @type {Record<keyof DataRow, string>} */ ({
   outcome: "Outcome",
   group: "Group",
   group2: "Group 2",
-  // group3: 'Group 3',
   exposureMeds: "Exposure Medications",
   controlMeds: "Control Medications",
   measure: "Measure",
@@ -84,7 +83,6 @@ const filteredBy = /** @type {Record<FilterField, string>} */ ({
   outcome: "",
   group: "",
   group2: "",
-  // group3: '',
   measure: "",
   exposureMeds: "",
   controlMeds: "",
@@ -157,9 +155,7 @@ const render = () => {
     );
     table.classList.add("dashboard-table");
     table.id = "table";
-    // const tableDiv = document.createElement("div");
-    // tableDiv.id = "table";
-    // tableDiv.classList.add("dashboard-table");
+    
     dashboardContainer.appendChild(table);
 
     const header = document.createElement("thead");
@@ -228,11 +224,6 @@ const render = () => {
 const update = () => {
   render();
   updateFilterOptions();
-
-  // const clearAllButton = /** @type {HTMLButtonElement} */ (
-  //   document.querySelector("#filters button#reset-filters")
-  // );
-  // clearAllButton.disabled = !Object.values(state.filteredBy).some((v) => v);
 
   updateQueryParams();
 };
@@ -469,15 +460,6 @@ const createFilterElement = (
 
   const filteredByValue = state.filteredBy[field];
 
-  // const clearButton = /** @type {HTMLButtonElement} */ (document.createElement("button"));
-  // clearButton.type = "button";
-  // clearButton.id = `clear-${field}`;
-  // clearButton.setAttribute("aria-label", `Clear ${label} filter`);
-  // clearButton.setAttribute("data-clears", field);
-  // clearButton.textContent = "Clear";
-  // clearButton.disabled = !filteredByValue;
-  // container.appendChild(clearButton);
-
   const select = document.createElement("select");
   select.name = field;
   select.id = field;
@@ -523,20 +505,6 @@ const createFilterElements = (
     }
     update();
   });
-
-  // const clearAllButton = /** @type {HTMLButtonElement} */ (filtersForm.querySelector("button#reset-filters"));
-
-  // clearAllButton?.addEventListener("click", () => {
-  //   for (const field of FILTER_FIELDS) {
-  //     state.filteredBy[field] = "";
-  //     const select = /** @type {HTMLSelectElement} */ (
-  //       document.getElementById(field)
-  //     );
-  //     if (select) select.value = "";
-  //   }
-  //   clearAllButton.blur();
-  //   update();
-  // });
 
   const fieldsetElement = filtersForm.querySelector("fieldset");
 
@@ -585,7 +553,7 @@ const createFilterElements = (
     );
     state.filteredBy[field] = "";
     const select = /** @type {HTMLSelectElement} */ (
-      fieldsetElement.querySelector(`#${field}`)
+      fieldsetElement.querySelector(`select#${field}`)
     );
     if (select) select.value = "";
     button.blur();
@@ -615,10 +583,11 @@ const initialise = async () => {
     return acc;
   }, initialAcc);
 
+  const medicationOrder = ["GLP-1 RA", "Metformin", "SGLT2i", "Sulphonylureas", "DPP-4i", "Basal Insulin"];
 
   const uniqueOrdering = /** @type {Record<string, string[]>} */ ({
-    exposureMeds: [ "GLP-1 RA", "Metformin", "SGLT2i", "Sulphonylureas", "Basal Insulin" ],
-    controlMeds: [ "GLP-1 RA", "Metformin", "SGLT2i", "Sulphonylureas", "Basal Insulin" ],
+    exposureMeds: medicationOrder,
+    controlMeds: medicationOrder,
   });
 
 
