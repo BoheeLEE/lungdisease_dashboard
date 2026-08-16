@@ -16,14 +16,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Convert CSV to JSON
         shell: pwsh
         run: ./data/data-transform.ps1
 
       - name: Commit updated JSON
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update data.json from data.csv
           file_pattern: data/data.json
