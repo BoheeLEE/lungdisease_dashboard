@@ -190,7 +190,26 @@ figure {
     min-height: 100%;
     width: 100%;
 }
+
+.abbreviations {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-inline-start: 0;
+    margin: 0;
+    gap: 0.125rem 0.5rem;
+    > li {
+        list-style: none;
+
+        &:not(:last-child)::after {
+            content: ';'
+        }
+    }
+}
+
 .dashboard-table {
+    margin-inline: auto;
+    max-width: fit-content;
     display: grid;
     grid-template-columns:
         [study] minmax(14ch, max-content)
@@ -272,4 +291,25 @@ figure {
 
     border-bottom: 1px solid hsl(from currentColor h s l / 0.4);
 
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+footer {
+    padding-inline: 1rem;
+    display: flex;
+    
+    > p {
+        margin-inline-start: auto;
+    }
 }

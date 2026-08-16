@@ -154,8 +154,8 @@ const render = () => {
       document.createElement("table")
     );
     table.classList.add("dashboard-table");
-    table.id = "table";
-    
+    table.id = "dash-table";
+
     dashboardContainer.appendChild(table);
 
     const header = document.createElement("thead");
@@ -219,6 +219,8 @@ const render = () => {
   } else {
     table.appendChild(newTableBody);
   }
+
+  dashboardContainer.setAttribute('aria-busy', String(false));
 };
 
 const update = () => {

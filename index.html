@@ -12,16 +12,19 @@
   <body>
     <header></header>
     <main>
-      <h1>Type-2 Diabetes Lung Disease Dashboard</h1>
+      <h1>Type-2 Diabetes Medication for Asthma and COPD Exacerbations</h1>
       <p>
         This dashboard provides insights into the relationship between Type-2
-        Diabetes and Lung Disease. Use the filters to explore the data and
+        Diabetes medications and asthma/COPD exacerbations. Use the filters to explore the data and
         visualise trends.
       </p>
+      <p>
+        Data are based on the literature published up to <time datetime="2026-07">July 2026</time>. The data will be regularly updated. 
+      </p>
       <section>
-        <h2>Dashboard</h2>
         <div class="dashboard">
           <search>
+            <h2>Filters</h2>
             <form id="filters" class="dashboard__filters">
               <fieldset class="filters-container">
                 <legend>Filter by:</legend>
@@ -32,7 +35,11 @@
             <p id="num-results-message"></p>
           </search>
           <figure class="dashboard__graph" id="graph">
-            <table class="dashboard__graph-table">
+             <figcaption class="sr-only">
+              Multiple plot charts showing the estimates of the relationship between exposure and control medications.
+             </figcaption>
+             <!-- Implement skeleton loader -->
+            <table class="dashboard__graph-table" id="graph-table">
               <thead>
                 <tr data-theader="legend">
                   <th></th>
@@ -44,13 +51,37 @@
                 
               </tbody>
             </table>
-            <!-- Implement skeleton loader -->
+            
           </figure>
-          <div class="dashboard__table" id="table">
+          <div 
+            class="dashboard__table" 
+            id="table" 
+            aria-live="polite" 
+            aria-busy="true" 
+            aria-label="Dashboard table showing the data across studies; their exposure and control medications and their measures and estimates.">
             <!-- Implement skeleton loader -->
+
+            <ul class="abbreviations" role="list">
+              <li>COPD = Chronic Obstructive Pulmonary Disease</li>
+              <li>OCS = Oral Corticosteroid</li>
+              <li>GLP-1 RA = GLP-1 Receptor Agonists</li>
+              <li>SGLT2i = SGLT-2 inhibitors</li>
+              <li>DPP-4i = DPP-4 inhibitors</li>
+              <li>HR = Hazard Ratio</li>
+              <li>IRR = Incidence Rate Ratio</li>
+              <li>RR = Relative Risk</li>
+              <li>OR = Odds Ratio</li>
+              <li>CI = Confidence Interval</li>
+            </ul>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <p>
+        Corresponding authors: <a href="mailto:chloe.bloom06@imperial.ac.uk">Chloe I Bloom</a> & <a href="mailto:bohee.lee@imperial.ac.uk">Bohee Lee</a>
+        National Heart and Lung Institute, Imperial College London, UK
+      </p>
+    </footer>
   </body>
 </html>
