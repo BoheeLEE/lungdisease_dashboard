@@ -116,8 +116,8 @@ const layout = {
   ],
   xaxis: {
     fixedrange: true,
-    range: [0.3, 2.0],
-    tickVals: [0.5, 1.0, 1.5, 2.0],
+    range: [0.1, 3],
+    tickVals: [0.5, 1.0, 1.5, 2.0, 2.5, 3],
     font: { size: 8 },
     automargin: true,
     autorange: "nonnegative",
