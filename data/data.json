@@ -1,6 +1,6 @@
 [
   {
-    "id": "#46",
+    "link": "https://picocss.com/docs/color-schemes",
     "study": "Yen 2020",
     "disease": "COPD",
     "setting": "hospital",
@@ -14,10 +14,10 @@
     "estimate": 1.34,
     "lowerCI": 1.26,
     "highCI": 1.43,
-    "uniqueId": "a8618ca6-8abb-4f37-abf2-7be0147cfb10"
+    "uniqueId": "d79153ff-f293-41fb-9764-64a68a1acc16"
   },
   {
-    "id": "#48",
+    "link": "",
     "study": "Meng 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -31,10 +31,10 @@
     "estimate": 0.91,
     "lowerCI": 0.82,
     "highCI": 1.0,
-    "uniqueId": "9e0fb6bd-d13e-4b91-9995-68ddd309088a"
+    "uniqueId": "fd8ca610-e718-4dae-9a97-c3a1974f041f"
   },
   {
-    "id": "#48",
+    "link": "",
     "study": "Meng 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -48,10 +48,10 @@
     "estimate": 1.07,
     "lowerCI": 0.91,
     "highCI": 1.25,
-    "uniqueId": "e8197ca1-c57a-4073-ba9b-d67bb91ffab7"
+    "uniqueId": "bb122e3e-5ef5-4ef2-9628-f266f2857017"
   },
   {
-    "id": "#57",
+    "link": "",
     "study": "Chang 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -65,10 +65,10 @@
     "estimate": 0.69,
     "lowerCI": 0.52,
     "highCI": 0.92,
-    "uniqueId": "010f3adb-2592-490c-8c0f-460644f91d93"
+    "uniqueId": "6657d8f0-cb7d-4dd0-9d16-9cd4ae829b4c"
   },
   {
-    "id": "#57",
+    "link": "",
     "study": "Chang 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -82,10 +82,10 @@
     "estimate": 0.35,
     "lowerCI": 0.2,
     "highCI": 0.61,
-    "uniqueId": "0ea469e1-039b-4a77-a4c9-49de35e5ed7d"
+    "uniqueId": "770237e9-d92f-4b7d-bc0e-2deb3694e05c"
   },
   {
-    "id": "#57",
+    "link": "",
     "study": "Chang 2025",
     "disease": "COPD",
     "setting": "community",
@@ -99,10 +99,10 @@
     "estimate": 0.76,
     "lowerCI": 0.57,
     "highCI": 1.03,
-    "uniqueId": "5025c7c9-5cbf-4769-b63c-a51d587d5594"
+    "uniqueId": "6bd504d9-eea7-4e80-bcd3-5cd535498dff"
   },
   {
-    "id": "#68",
+    "link": "",
     "study": "Wang 2020",
     "disease": "COPD",
     "setting": "hospital",
@@ -116,10 +116,10 @@
     "estimate": 0.81,
     "lowerCI": 0.73,
     "highCI": 0.91,
-    "uniqueId": "c9bd9907-5d4f-415a-bb9c-6ad5fd6cf39e"
+    "uniqueId": "7f9096a6-af8d-4202-b3cc-a103ce6b4b10"
   },
   {
-    "id": "#147",
+    "link": "",
     "study": "Geetha 2024",
     "disease": "COPD",
     "setting": "hospital",
@@ -133,10 +133,10 @@
     "estimate": 0.232,
     "lowerCI": 0.118,
     "highCI": 0.453,
-    "uniqueId": "8b4f6f1d-a427-44ad-8ed1-e85fb801aa59"
+    "uniqueId": "a6331a0d-9415-401c-9bdf-a871599889fc"
   },
   {
-    "id": "#147",
+    "link": "",
     "study": "Geetha 2024",
     "disease": "COPD",
     "setting": "hospital",
@@ -150,10 +150,10 @@
     "estimate": 0.156,
     "lowerCI": 0.073,
     "highCI": 0.331,
-    "uniqueId": "e26575f8-9a7e-4631-875c-b442c76ad049"
+    "uniqueId": "4f03617a-b641-42d4-8eb6-3cc7b9aa0baa"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -167,10 +167,10 @@
     "estimate": 0.62,
     "lowerCI": 0.48,
     "highCI": 0.81,
-    "uniqueId": "e3cd93a5-a217-4bff-a879-269ee7a2877e"
+    "uniqueId": "96477b1d-131d-4d21-a826-499e1837a0c1"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "community",
@@ -184,10 +184,10 @@
     "estimate": 1.02,
     "lowerCI": 0.83,
     "highCI": 1.27,
-    "uniqueId": "2e173e1f-94d7-4567-8b82-78a33c82a70d"
+    "uniqueId": "7cf6a7f9-4455-4e84-8019-cd4ef8e3900a"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -201,10 +201,10 @@
     "estimate": 0.59,
     "lowerCI": 0.43,
     "highCI": 0.8,
-    "uniqueId": "ba9b0181-15c6-46af-8c4a-f0a67c5292a2"
+    "uniqueId": "4cd294f9-d32f-46dd-b9c0-b611ad4326d2"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "community",
@@ -218,10 +218,10 @@
     "estimate": 1.0,
     "lowerCI": 0.79,
     "highCI": 1.26,
-    "uniqueId": "e28c89ae-40eb-4e16-a347-33567e1e0774"
+    "uniqueId": "70f768b4-9e13-4c24-a91b-d5a388428e1c"
   },
   {
-    "id": "#390",
+    "link": "",
     "study": "Yen 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -235,10 +235,10 @@
     "estimate": 0.9,
     "lowerCI": 0.72,
     "highCI": 1.13,
-    "uniqueId": "766b5093-7bdf-47f1-ae6e-40c65f4d5bcc"
+    "uniqueId": "81b49bed-b961-4361-adb3-5ee997df51e1"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "community",
@@ -252,10 +252,10 @@
     "estimate": 1.16,
     "lowerCI": 1.07,
     "highCI": 1.25,
-    "uniqueId": "0babd1c6-b4bc-4952-aee8-5c013bae819b"
+    "uniqueId": "8d20f0dc-39a1-48ce-b3c8-5db1c5c5653c"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "community",
@@ -269,10 +269,10 @@
     "estimate": 1.16,
     "lowerCI": 1.05,
     "highCI": 1.27,
-    "uniqueId": "18929b6e-86a0-4ae4-a6c8-485bb0909446"
+    "uniqueId": "cf498fd6-b90e-41e0-ac34-8fff7622fa55"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -286,10 +286,10 @@
     "estimate": 1.14,
     "lowerCI": 1.06,
     "highCI": 1.88,
-    "uniqueId": "9fc95917-6242-4385-99d6-318ace7c7293"
+    "uniqueId": "f7c751b3-587d-4d52-aea0-ab890fd70534"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -303,10 +303,10 @@
     "estimate": 1.5,
     "lowerCI": 1.08,
     "highCI": 2.08,
-    "uniqueId": "090cff49-5980-48c3-ab0b-f26b2e835168"
+    "uniqueId": "3875c1ec-9dcb-4d22-a647-5a14c7117f87"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "community",
@@ -320,10 +320,10 @@
     "estimate": 1.07,
     "lowerCI": 0.87,
     "highCI": 1.32,
-    "uniqueId": "05c27c9e-fe94-4cee-b2f9-ac7812fce529"
+    "uniqueId": "8f916567-10bd-4a79-bca8-bb571e537d98"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "community",
@@ -337,10 +337,10 @@
     "estimate": 1.26,
     "lowerCI": 0.96,
     "highCI": 1.66,
-    "uniqueId": "9459c92c-2671-4ad4-9315-f8b5babb5b93"
+    "uniqueId": "d1549734-b0ba-4736-8158-87d1dd8bd237"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "community",
@@ -354,10 +354,10 @@
     "estimate": 1.0,
     "lowerCI": 0.94,
     "highCI": 1.06,
-    "uniqueId": "32201bc1-7b90-44d7-875d-c3fdda10a2c6"
+    "uniqueId": "c64bb99a-be3e-44b4-afc0-21276382254c"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "community",
@@ -371,10 +371,10 @@
     "estimate": 0.94,
     "lowerCI": 0.87,
     "highCI": 1.01,
-    "uniqueId": "19264cab-5021-4c54-853b-b49bf638cddd"
+    "uniqueId": "048208f8-b6ea-4fa1-a106-8030dac93bec"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -388,10 +388,10 @@
     "estimate": 0.86,
     "lowerCI": 0.67,
     "highCI": 1.11,
-    "uniqueId": "bd2a68ce-0cff-40bc-a7db-293e63421c03"
+    "uniqueId": "547754b7-a13c-4e4d-bf37-697236e320a4"
   },
   {
-    "id": "#445",
+    "link": "",
     "study": "Kimura 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -405,10 +405,10 @@
     "estimate": 0.87,
     "lowerCI": 0.66,
     "highCI": 1.15,
-    "uniqueId": "270a1ca3-9b8f-4ea7-84c0-53d92eda42c0"
+    "uniqueId": "88db9c90-ba52-436a-889e-8cf4d5846b4b"
   },
   {
-    "id": "#466",
+    "link": "",
     "study": "Yen 2025a",
     "disease": "COPD",
     "setting": "hospital",
@@ -422,10 +422,10 @@
     "estimate": 0.73,
     "lowerCI": 0.62,
     "highCI": 0.85,
-    "uniqueId": "67628355-9d75-4ade-9eb9-d7bf05c80c4a"
+    "uniqueId": "9e7357ef-8a29-48e5-a701-40effddbfcc1"
   },
   {
-    "id": "#466",
+    "link": "",
     "study": "Yen 2025a",
     "disease": "COPD",
     "setting": "hospital",
@@ -439,10 +439,10 @@
     "estimate": 1.18,
     "lowerCI": 0.78,
     "highCI": 1.79,
-    "uniqueId": "d90b1898-bb00-449d-b1fa-f9cc73131e77"
+    "uniqueId": "43bfcd0d-f9a2-4396-964a-1a50375f052e"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "community",
@@ -456,10 +456,10 @@
     "estimate": 1.3,
     "lowerCI": 0.92,
     "highCI": 1.82,
-    "uniqueId": "68aba2b9-ed16-405c-a304-873c779f0bf1"
+    "uniqueId": "de0b5f39-7ce1-4e64-993f-bc22483621eb"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "community",
@@ -473,10 +473,10 @@
     "estimate": 0.94,
     "lowerCI": 0.69,
     "highCI": 1.3,
-    "uniqueId": "16697ba8-bd4b-4852-bf2a-dda23376ca40"
+    "uniqueId": "cac7c689-dc9e-4e79-95f5-45fb90e45e81"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "community",
@@ -490,10 +490,10 @@
     "estimate": 1.92,
     "lowerCI": 1.45,
     "highCI": 2.54,
-    "uniqueId": "1972f1fa-9ce9-4577-a2ec-a3123a583aff"
+    "uniqueId": "2ff500cc-1fb6-41e2-a29d-81242e5947ed"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "hospital",
@@ -507,10 +507,10 @@
     "estimate": 2.04,
     "lowerCI": 1.23,
     "highCI": 3.36,
-    "uniqueId": "c2a620a6-ae4a-46f1-9c3d-726fc5cc4cb7"
+    "uniqueId": "933e075a-43d5-4dd2-98f3-9d45189da3b6"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "hospital",
@@ -524,10 +524,10 @@
     "estimate": 1.28,
     "lowerCI": 0.79,
     "highCI": 2.08,
-    "uniqueId": "f16f46ac-de33-4ebe-bc75-dfc35098d25e"
+    "uniqueId": "3069179a-ea66-4e90-805e-eafe3d7e7671"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "hospital",
@@ -541,10 +541,10 @@
     "estimate": 2.63,
     "lowerCI": 1.71,
     "highCI": 4.04,
-    "uniqueId": "84737828-6ff4-4b2a-b049-f4784deac0c9"
+    "uniqueId": "7de65c63-bfed-4690-be99-6e4c75a59a06"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "hospital",
@@ -558,10 +558,10 @@
     "estimate": 1.13,
     "lowerCI": 0.83,
     "highCI": 1.55,
-    "uniqueId": "fe1d3949-2079-44fa-aa14-a9ef146c02a5"
+    "uniqueId": "cb21f829-59bc-49d4-ac45-07ce0e835d99"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "hospital",
@@ -575,10 +575,10 @@
     "estimate": 0.89,
     "lowerCI": 0.66,
     "highCI": 1.2,
-    "uniqueId": "7f4a2fb8-f563-4d32-b71e-c277bf2b120b"
+    "uniqueId": "86f178f5-2217-4027-8968-11b5cedcc023"
   },
   {
-    "id": "#3985",
+    "link": "",
     "study": "Foer 2023",
     "disease": "COPD",
     "setting": "hospital",
@@ -592,10 +592,10 @@
     "estimate": 1.49,
     "lowerCI": 1.16,
     "highCI": 1.93,
-    "uniqueId": "709434a6-d138-4447-bfe2-bb772c763f0a"
+    "uniqueId": "d0381ecd-432a-4a70-bf82-36903794efc3"
   },
   {
-    "id": "#3995",
+    "link": "",
     "study": "Yen 2025b",
     "disease": "COPD",
     "setting": "hospital",
@@ -609,10 +609,10 @@
     "estimate": 0.82,
     "lowerCI": 0.69,
     "highCI": 0.98,
-    "uniqueId": "14958512-e151-4fa9-bf2c-6e286764166e"
+    "uniqueId": "093a4832-dbe3-4387-bca2-a3383ae00453"
   },
   {
-    "id": "#3995",
+    "link": "",
     "study": "Yen 2025b",
     "disease": "COPD",
     "setting": "hospital",
@@ -626,10 +626,10 @@
     "estimate": 0.96,
     "lowerCI": 0.7,
     "highCI": 1.13,
-    "uniqueId": "99843941-f877-48eb-905f-2a90f7697981"
+    "uniqueId": "8497d5b6-891e-4727-82af-6c9052cdc4c5"
   },
   {
-    "id": "#3995",
+    "link": "",
     "study": "Yen 2025b",
     "disease": "COPD",
     "setting": "hospital",
@@ -643,10 +643,10 @@
     "estimate": 0.83,
     "lowerCI": 0.56,
     "highCI": 1.22,
-    "uniqueId": "70d9c01c-b60c-406f-aaf0-0a9b4eabc58e"
+    "uniqueId": "1e541713-82f2-488d-9082-6b7884979aed"
   },
   {
-    "id": "#3997",
+    "link": "",
     "study": "Yen 2024",
     "disease": "COPD",
     "setting": "hospital",
@@ -660,10 +660,10 @@
     "estimate": 0.72,
     "lowerCI": 0.55,
     "highCI": 0.96,
-    "uniqueId": "97469f1c-67f3-4cbd-9a09-9b81526997c4"
+    "uniqueId": "790ec3be-72a8-4455-8efd-dac89eb469c8"
   },
   {
-    "id": "#3997",
+    "link": "",
     "study": "Yen 2024",
     "disease": "COPD",
     "setting": "hospital",
@@ -677,10 +677,10 @@
     "estimate": 1.06,
     "lowerCI": 0.86,
     "highCI": 1.31,
-    "uniqueId": "1766edc2-a71e-4374-8742-8d126921a0ab"
+    "uniqueId": "245ae391-77e6-44b5-ae5e-2b195c5ec9d4"
   },
   {
-    "id": "#4000",
+    "link": "",
     "study": "Bishwakarma 2018",
     "disease": "COPD",
     "setting": "hospital",
@@ -694,10 +694,10 @@
     "estimate": 0.66,
     "lowerCI": 0.52,
     "highCI": 0.85,
-    "uniqueId": "cc821810-1edf-4718-a1f5-a7df1add1c53"
+    "uniqueId": "44043b3c-3451-45ee-b18e-deedaf647212"
   },
   {
-    "id": "#4000",
+    "link": "",
     "study": "Bishwakarma 2018",
     "disease": "COPD",
     "setting": "hospital",
@@ -711,10 +711,10 @@
     "estimate": 0.82,
     "lowerCI": 0.64,
     "highCI": 1.04,
-    "uniqueId": "ea15b681-84f9-4e20-bdd7-4d7cf3757133"
+    "uniqueId": "85c4b785-c0e7-4c53-b38a-e9dd89cdb8c3"
   },
   {
-    "id": "#4013",
+    "link": "",
     "study": "Ray 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -728,10 +728,10 @@
     "estimate": 0.81,
     "lowerCI": 0.76,
     "highCI": 0.86,
-    "uniqueId": "8321ed73-787b-4fce-a30d-a6d24fe53912"
+    "uniqueId": "4f53b4b7-f202-46fb-9423-516c53ad9e16"
   },
   {
-    "id": "#4013",
+    "link": "",
     "study": "Ray 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -745,10 +745,10 @@
     "estimate": 0.86,
     "lowerCI": 0.81,
     "highCI": 0.91,
-    "uniqueId": "f11c2a34-da90-4ae5-9931-224afd4d6b98"
+    "uniqueId": "b7758520-14be-43e9-a2ed-f7ed13f49dc9"
   },
   {
-    "id": "#4013",
+    "link": "",
     "study": "Ray 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -762,10 +762,10 @@
     "estimate": 0.94,
     "lowerCI": 1.12,
     "highCI": 1.0,
-    "uniqueId": "f001cae6-4fd4-4958-94f2-d809e4dc5149"
+    "uniqueId": "039435c0-1543-4dea-aef8-7547c034f4a6"
   },
   {
-    "id": "#4013",
+    "link": "",
     "study": "Ray 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -779,10 +779,10 @@
     "estimate": 0.71,
     "lowerCI": 0.65,
     "highCI": 0.78,
-    "uniqueId": "409678c3-ef90-4a39-aa7c-d54d8dbe8a0d"
+    "uniqueId": "04008703-ac5c-4553-9d74-48cae3fa158d"
   },
   {
-    "id": "#4013",
+    "link": "",
     "study": "Ray 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -796,10 +796,10 @@
     "estimate": 0.82,
     "lowerCI": 0.76,
     "highCI": 0.89,
-    "uniqueId": "a8415277-94ef-490d-af3a-ca95ff4ed05f"
+    "uniqueId": "7a0fadb4-f638-4c68-8bec-3b30447635cd"
   },
   {
-    "id": "#4013",
+    "link": "",
     "study": "Ray 2025",
     "disease": "COPD",
     "setting": "hospital",
@@ -813,10 +813,10 @@
     "estimate": 0.93,
     "lowerCI": 0.85,
     "highCI": 1.01,
-    "uniqueId": "8882a089-cb78-4416-889b-7099d36a5821"
+    "uniqueId": "1eac82bd-046f-4d97-8ea4-91a9982dcea8"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -830,10 +830,10 @@
     "estimate": 0.7,
     "lowerCI": 0.49,
     "highCI": 0.99,
-    "uniqueId": "8c462e2b-c851-4cb9-b43f-c4eb5b22e430"
+    "uniqueId": "2db2e66d-dc3b-4973-a91e-312add31397e"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "community",
@@ -847,10 +847,10 @@
     "estimate": 0.63,
     "lowerCI": 0.43,
     "highCI": 0.94,
-    "uniqueId": "087baf54-4d16-4a9f-b741-34c5f21926f2"
+    "uniqueId": "34cc8fa7-dd07-448c-9ace-7d63ef03dfc2"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -864,10 +864,10 @@
     "estimate": 0.59,
     "lowerCI": 0.37,
     "highCI": 0.94,
-    "uniqueId": "48868744-43cb-4d68-a275-ed3987601961"
+    "uniqueId": "a0c499d0-2c94-494f-bda9-d785817dfbab"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "community",
@@ -881,10 +881,10 @@
     "estimate": 0.52,
     "lowerCI": 0.34,
     "highCI": 0.8,
-    "uniqueId": "2d2c3704-6778-4698-bd54-3c14901e751f"
+    "uniqueId": "29b89e56-df7e-46f4-8d6b-17d51edb80c0"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -898,10 +898,10 @@
     "estimate": 0.91,
     "lowerCI": 0.82,
     "highCI": 1.02,
-    "uniqueId": "c90ef21e-03aa-4c52-915f-3e2b70fa1090"
+    "uniqueId": "42613d98-03b5-4687-9cb4-e9bb17fb3d78"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "community",
@@ -915,10 +915,10 @@
     "estimate": 0.93,
     "lowerCI": 0.82,
     "highCI": 1.07,
-    "uniqueId": "1585d19c-4e2e-47c7-aa15-6d1654da1a9c"
+    "uniqueId": "be0795cb-7112-43b9-a9a0-3d2be6646dfd"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "hospital",
@@ -932,10 +932,10 @@
     "estimate": 0.9,
     "lowerCI": 0.8,
     "highCI": 1.03,
-    "uniqueId": "72ed2bf1-57f7-467c-8b54-2c0764b5c6a3"
+    "uniqueId": "f3346711-8e78-4b38-9d87-71977a0b63f0"
   },
   {
-    "id": "#367",
+    "link": "",
     "study": "Pradhan 2022",
     "disease": "COPD",
     "setting": "community",
@@ -949,10 +949,10 @@
     "estimate": 0.91,
     "lowerCI": 0.77,
     "highCI": 1.07,
-    "uniqueId": "2809fdbf-9a79-4ee6-90ee-cda809d9a5d1"
+    "uniqueId": "db68be9e-0eb1-428c-98d2-5666834509dd"
   },
   {
-    "id": "#373",
+    "link": "",
     "study": "Wu 2021",
     "disease": "Asthma",
     "setting": "community",
@@ -966,10 +966,10 @@
     "estimate": 1.06,
     "lowerCI": 0.84,
     "highCI": 1.35,
-    "uniqueId": "12f8379c-81cb-4701-85c9-e47153a7b72f"
+    "uniqueId": "e8fe096b-2eac-4284-bb93-cf61afba6ac0"
   },
   {
-    "id": "#373",
+    "link": "",
     "study": "Wu 2021",
     "disease": "Asthma",
     "setting": "hospital",
@@ -983,10 +983,10 @@
     "estimate": 0.31,
     "lowerCI": 0.16,
     "highCI": 0.59,
-    "uniqueId": "8b354ef8-d386-46e9-bfa6-122630da920a"
+    "uniqueId": "a0f2546d-1b34-4f92-a114-c5b03722ecae"
   },
   {
-    "id": "#373",
+    "link": "",
     "study": "Wu 2021",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1000,10 +1000,10 @@
     "estimate": 0.3,
     "lowerCI": 0.09,
     "highCI": 0.93,
-    "uniqueId": "0cb62332-18c9-47fc-a236-88debb5c449c"
+    "uniqueId": "8771296d-d9c8-44ee-9faf-04dc1ee2cec1"
   },
   {
-    "id": "#3846",
+    "link": "",
     "study": "Li 2016",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1017,10 +1017,10 @@
     "estimate": 0.21,
     "lowerCI": 0.07,
     "highCI": 0.63,
-    "uniqueId": "785a5eb6-7083-4247-b8dc-395511c7c0cf"
+    "uniqueId": "ae5b0542-9a4a-4ecb-887b-3f335d669933"
   },
   {
-    "id": "#3846",
+    "link": "",
     "study": "Li 2016",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1034,10 +1034,10 @@
     "estimate": 0.62,
     "lowerCI": 0.26,
     "highCI": 1.44,
-    "uniqueId": "99ebce33-fc5b-4291-8dab-4bff0cd28ac8"
+    "uniqueId": "78eabb74-9d83-4628-8658-bf5cc1fd5f31"
   },
   {
-    "id": "#3863",
+    "link": "",
     "study": "Kimura 2024",
     "disease": "Asthma",
     "setting": "community",
@@ -1051,10 +1051,10 @@
     "estimate": 1.09,
     "lowerCI": 1.05,
     "highCI": 1.14,
-    "uniqueId": "a62c0f7c-926e-4a38-8410-6ea983dad296"
+    "uniqueId": "e9947e69-edab-4f35-a02c-c8c4166b6ad4"
   },
   {
-    "id": "#3863",
+    "link": "",
     "study": "Kimura 2024",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1068,10 +1068,10 @@
     "estimate": 1.44,
     "lowerCI": 1.15,
     "highCI": 1.81,
-    "uniqueId": "de0b0855-0559-48e2-ac47-fe2729026549"
+    "uniqueId": "f6727744-d8ed-42cb-bc48-3a806ea1866d"
   },
   {
-    "id": "#3863",
+    "link": "",
     "study": "Kimura 2024",
     "disease": "Asthma",
     "setting": "community",
@@ -1085,10 +1085,10 @@
     "estimate": 1.14,
     "lowerCI": 1.01,
     "highCI": 1.28,
-    "uniqueId": "d24d1377-3920-41ec-96ee-013eb4aa35aa"
+    "uniqueId": "b5d455cb-4c61-4469-8b69-03559dc9bc62"
   },
   {
-    "id": "#3863",
+    "link": "",
     "study": "Kimura 2024",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1102,10 +1102,10 @@
     "estimate": 1.56,
     "lowerCI": 0.91,
     "highCI": 2.69,
-    "uniqueId": "92f21442-4ebc-45d5-a496-17cb276626b6"
+    "uniqueId": "181f6a8e-9af5-4143-aec9-66dab7b14ae7"
   },
   {
-    "id": "#3863",
+    "link": "",
     "study": "Kimura 2024",
     "disease": "Asthma",
     "setting": "community",
@@ -1119,10 +1119,10 @@
     "estimate": 1.0,
     "lowerCI": 0.97,
     "highCI": 1.03,
-    "uniqueId": "954d90fe-f5ff-4e79-8427-fb9189036ec1"
+    "uniqueId": "7ee0d03c-0c56-4340-a440-ea48b0cf7593"
   },
   {
-    "id": "#3863",
+    "link": "",
     "study": "Kimura 2024",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1136,10 +1136,10 @@
     "estimate": 0.92,
     "lowerCI": 0.77,
     "highCI": 1.1,
-    "uniqueId": "d5aa2b30-69ba-45ed-ac0a-dc0ddfa057fd"
+    "uniqueId": "c07d92fa-e78e-4d59-846e-7369c8fb495b"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "community",
@@ -1153,10 +1153,10 @@
     "estimate": 2.95,
     "lowerCI": 1.3,
     "highCI": 6.67,
-    "uniqueId": "19a43129-8d5e-455c-88ae-f2857c3f797e"
+    "uniqueId": "6a70391a-f6d7-4afa-8e3d-3598914eebaa"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "community",
@@ -1170,10 +1170,10 @@
     "estimate": 2.45,
     "lowerCI": 1.54,
     "highCI": 3.89,
-    "uniqueId": "22ae3c3a-ef50-4f18-af2b-eabb29c20c04"
+    "uniqueId": "ff40f4a5-5665-4d49-9b44-24d88621c864"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "community",
@@ -1187,10 +1187,10 @@
     "estimate": 1.83,
     "lowerCI": 1.2,
     "highCI": 2.77,
-    "uniqueId": "1369b1d0-9ebf-4990-b874-bd9f62e00bd1"
+    "uniqueId": "987ed402-97a9-4653-8303-42a367d0ef30"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "community",
@@ -1204,10 +1204,10 @@
     "estimate": 2.58,
     "lowerCI": 1.72,
     "highCI": 3.88,
-    "uniqueId": "f23b81ab-a71c-42a4-b6ac-f49095c1abaa"
+    "uniqueId": "16982860-7f82-45d8-a8e9-6635e107e79c"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1221,10 +1221,10 @@
     "estimate": 1.44,
     "lowerCI": 0.72,
     "highCI": 2.88,
-    "uniqueId": "53b95c41-cb03-4bfc-9034-247d0594a452"
+    "uniqueId": "85c9cd8c-baf3-4552-bfff-58f2f6645dab"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1238,10 +1238,10 @@
     "estimate": 1.71,
     "lowerCI": 1.14,
     "highCI": 2.57,
-    "uniqueId": "08eb7e29-2fb7-4911-a703-e1116f24a55d"
+    "uniqueId": "49cfb663-e10d-48fb-a460-282db8d10400"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1255,10 +1255,10 @@
     "estimate": 1.73,
     "lowerCI": 1.21,
     "highCI": 2.47,
-    "uniqueId": "04da4faa-6251-47d2-adbb-3ef167887b8d"
+    "uniqueId": "a4ab2110-2490-460b-8043-e2d7e094205f"
   },
   {
-    "id": "#3992",
+    "link": "",
     "study": "Foer 2021",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1272,10 +1272,10 @@
     "estimate": 1.89,
     "lowerCI": 1.35,
     "highCI": 2.65,
-    "uniqueId": "218c2144-cbb0-40b4-b7a7-676e86fd1f33"
+    "uniqueId": "0b5871b8-6bd5-4c21-8536-d66e18ebf8eb"
   },
   {
-    "id": "#4005",
+    "link": "",
     "study": "Wu 2019",
     "disease": "Asthma",
     "setting": "community",
@@ -1289,10 +1289,10 @@
     "estimate": 0.96,
     "lowerCI": 0.9,
     "highCI": 1.03,
-    "uniqueId": "830a1deb-3acc-4861-b497-a668f421f2ab"
+    "uniqueId": "2615b95f-2acb-425a-8679-79902629c7e5"
   },
   {
-    "id": "#4005",
+    "link": "",
     "study": "Wu 2019",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1306,10 +1306,10 @@
     "estimate": 0.81,
     "lowerCI": 0.74,
     "highCI": 0.88,
-    "uniqueId": "74a485af-c075-47b2-a3d6-10da62111fc0"
+    "uniqueId": "a6372208-7777-4ae4-8f1b-8ead088f21a5"
   },
   {
-    "id": "#4005",
+    "link": "",
     "study": "Wu 2019",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1323,10 +1323,10 @@
     "estimate": 0.67,
     "lowerCI": 0.5,
     "highCI": 0.91,
-    "uniqueId": "2ff89a54-0564-4b28-a062-d5effa5db266"
+    "uniqueId": "5c9d80ae-5e78-4f6d-a580-0c3a16830c47"
   },
   {
-    "id": "#4076",
+    "link": "",
     "study": "Lee 2025",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1340,10 +1340,10 @@
     "estimate": 0.68,
     "lowerCI": 0.62,
     "highCI": 0.75,
-    "uniqueId": "8e8c7283-7021-4df7-8689-9a25386bb5fa"
+    "uniqueId": "ef6a0bca-714d-44c8-8f2c-d580555068c3"
   },
   {
-    "id": "#4076",
+    "link": "",
     "study": "Lee 2025",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1357,10 +1357,10 @@
     "estimate": 0.92,
     "lowerCI": 0.79,
     "highCI": 1.06,
-    "uniqueId": "186ecf1f-d98e-48f7-b05a-e1a38efbd873"
+    "uniqueId": "5b534ba5-ee16-4fa5-8a23-d48880ac5614"
   },
   {
-    "id": "#4076",
+    "link": "",
     "study": "Lee 2025",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1374,10 +1374,10 @@
     "estimate": 0.66,
     "lowerCI": 0.52,
     "highCI": 0.84,
-    "uniqueId": "4ea285dc-0120-41eb-acc2-a19fde97ab67"
+    "uniqueId": "b66b012e-375c-4c04-97b4-2f8024b9f61d"
   },
   {
-    "id": "#4076",
+    "link": "",
     "study": "Lee 2025",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1391,10 +1391,10 @@
     "estimate": 0.86,
     "lowerCI": 0.69,
     "highCI": 1.07,
-    "uniqueId": "3849ff84-34ae-4667-81bf-3fb3aef41ea6"
+    "uniqueId": "3549c0f8-677d-4312-bd6f-43b23226df46"
   },
   {
-    "id": "#4076",
+    "link": "",
     "study": "Lee 2025",
     "disease": "Asthma",
     "setting": "hospital",
@@ -1408,6 +1408,6 @@
     "estimate": 0.76,
     "lowerCI": 0.67,
     "highCI": 0.85,
-    "uniqueId": "f334c120-02bc-47b2-b83b-faa78230687d"
+    "uniqueId": "69df6a77-c917-48a7-a753-ff7f5203f00e"
   }
 ]

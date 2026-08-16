@@ -9,6 +9,7 @@ const measures = /** @type {const} */ (["HR", "OR", "RR", "IRR"]);
 
 /**
  * @typedef {Object} DataRow
+ * @property {string} link
  * @property {string} study
  * @property {string} disease
  * @property {string} setting
@@ -95,13 +96,46 @@ const measureColours = /** @type {Record<typeof measures[number], string>} */ ({
   IRR: "#d62728", // red
 });
 
-/** @type {{ data: DataRow[], filteredBy: Record<FilterField, string>, grid: Map<string, Map<string, DataRow[]>>, exposureMeds: string[], controlMeds: string[], getFilteredData: () => DataRow[] }} */
+/** @type {PlotlyLayout} */
+const layout = {
+  width: 200,
+  height: 200,
+  margin: { l: 10, r: 10, t: 15, b: 35 },
+  plot_bgcolor: "#f9f9f9",
+  shapes: [
+    {
+      type: "line",
+      xref: "x",
+      yref: "paper",
+      x0: 1.0,
+      x1: 1.0,
+      y0: 0.0,
+      y1: 1.0,
+      line: { color: "#6b0101", width: 1.2, dash: "dot" },
+    },
+  ],
+  xaxis: {
+    fixedrange: true,
+    range: [0.3, 2.0],
+    tickVals: [0.5, 1.0, 1.5, 2.0],
+    font: { size: 8 },
+    automargin: true,
+    autorange: "nonnegative",
+  },
+  yaxis: {
+    fixedrange: true,
+    automargin: true,
+    autorange: "max",
+    showticklabels: false,
+  },
+};
+
+/** @type {{ data: DataRow[], filteredBy: Record<FilterField, string>, exposureMeds: string[], controlMeds: string[], getFilteredData: () => DataRow[] }} */
 const state = {
   data: [],
   filteredBy: /** @type {Record<FilterField, string>} */ (
     Object.fromEntries(FILTER_FIELDS.map((f) => [f, ""]))
   ),
-  grid: new Map(),
   exposureMeds: [],
   controlMeds: [],
   getFilteredData: () =>
@@ -148,6 +182,8 @@ const render = () => {
     console.error("Dashboard container not found");
     return;
   }
+
+  dashboardContainer.setAttribute('aria-busy', String(true));
 
   const createTable = () => /** @type {HTMLTableElement} */ {
     const table = /** @type {HTMLTableElement} */ (
@@ -199,7 +235,14 @@ const render = () => {
         const cellElement = document.createElement("td");
         cellElement.classList.add("table-cell");
         cellElement.setAttribute("data-column", key);
-        cellElement.textContent = String(row[key]);
+        if (key === "study") {
+          const link = cellElement.appendChild(document.createElement('a'));
+          link.href = row['link'];
+          link.textContent = String(row[key]);
+        }
+        else {
+          cellElement.textContent = String(row[key]);
+        }
         rowElement.appendChild(cellElement);
       }
       tableBody.appendChild(rowElement);
@@ -208,7 +251,7 @@ const render = () => {
     return tableBody;
   };
 
-  const table = dashboardContainer.querySelector("#table") || createTable();
+  const table = dashboardContainer.querySelector("#dash-table") || createTable();
 
   const oldTableBody = table.querySelector(".table-body");
 
@@ -227,6 +270,7 @@ const update = () => {
   render();
   updateFilterOptions();
 
+  updateGraphTable();
   updateQueryParams();
 };
 
@@ -247,71 +291,78 @@ const updateQueryParams = () => {
   );
 };
 
-const buildGrid = (
-  /** @type {DataRow[]} */ data,
-  /** @type {string[]} */ controlMeds,
-  /** @type {string[]} */ exposureMeds,
-) => /** @type {Map<string, Map<string, DataRow[]>>} */ {
-  /** @type {Map<string, Map<string, DataRow[]>>} */
-  const grid = new Map();
-
-  for (const control of controlMeds) {
-    let byExposure = grid.get(control);
-    if (!byExposure) {
-      byExposure = new Map();
-      grid.set(control, byExposure);
-    }
-    for (const exposure of exposureMeds) {
-      if (!byExposure.has(exposure)) {
-        byExposure.set(exposure, []);
-      }
-    }
-  }
-
-  for (const row of data) {
-    const byExposure = grid.get(row.controlMeds);
-    if (!byExposure) {
-      continue; // skip rows with controlMeds not in the grid
-    }
-    const rows = byExposure.get(row.exposureMeds);
-    if (!rows) {
-      continue; // skip rows with exposureMeds not in the grid
-    }
-    rows.push(row);
-  }
-
-  return grid;
-};
-
 const updateGraphTable = () => {
-  const grid = state.grid;
+  const graphTable = /** @type {HTMLTableElement} */ (
+    document.querySelector("#graph-table")
+  );
+
+  const figures = graphTable.querySelectorAll("tbody td figure[id^=graph-]");
+
+  for (const figure of figures) {
+    const graphId = figure.id;
+    const control = figure.getAttribute("data-control");
+    const exposure = figure.getAttribute("data-exposure");
+
+    if (!control || !exposure) continue;
+
+    const rows = state.getFilteredData().filter(
+      (row) => row.controlMeds === control && row.exposureMeds === exposure,
+    );
+
+    updateGraph(graphId, rows);
+  }
+}
+
+const populateGraphTableBody = (/** @type {HTMLTableSectionElement} */ tbody) => {
+
+  const data = state.data;
   const exposureMeds = state.exposureMeds;
   const controlMeds = state.controlMeds;
 
-  const graphTable = /** @type {HTMLTableElement} */ (
-    document.querySelector(".dashboard__graph-table")
-  );
-  if (!graphTable) {
-    console.error("Graph table container not found");
-    return;
+  for (const control of controlMeds) {
+    const rowElement = document.createElement("tr");
+    const controlHeaderCell = document.createElement("th");
+    controlHeaderCell.textContent = control;
+    controlHeaderCell.scope = "row";
+    rowElement.appendChild(controlHeaderCell);
+
+    tbody.appendChild(rowElement);
+
+    for (const exposure of exposureMeds) {
+      const cellElement = document.createElement("td");
+      const rows = data.filter((row) => row.controlMeds === control && row.exposureMeds === exposure);
+
+      rowElement.appendChild(cellElement);
+
+      if (rows.length === 0) {
+        cellElement.innerHTML = "<div></div>";
+        continue;
+      }
+
+      const graphId = `graph-${control.replace(/\s+/g, "-").toLowerCase()}-${exposure.replace(/\s+/g, "-").toLowerCase()}`;
+
+      cellElement.innerHTML = `<figure id="${graphId}" data-control="${control}" data-exposure="${exposure}"></figure>`;
+      createGraph(graphId, rows);
+    }
+  }
+}
+
+const populateGraphTableHead = (/** @type {HTMLTableSectionElement} */ thead) => {
+
+  const legendRow = thead.querySelector("tr[data-theader='legend']") || thead.appendChild(document.createElement("tr"));
+  legendRow.setAttribute("data-theader", "legend");
+  legendRow.innerHTML = '<th></th><th>Exposures</th>';
+
+  const exposureMeds = state.exposureMeds;
+
+  const graphTable = thead.closest("table");
+  if (graphTable) {
+    graphTable.style.setProperty("--num-columns", exposureMeds.length.toString());
   }
 
-  graphTable.style.setProperty("--num-columns", exposureMeds.length.toString());
+  const headerRow = thead.querySelector("tr[data-theader='columns']") || thead.appendChild(document.createElement("tr"));
+  headerRow.setAttribute("data-theader", "columns");
 
-  const thead = graphTable.querySelector("thead");
-  if (!thead) {
-    console.error("Graph table thead not found");
-    return;
-  }
-
-
-  let headerRow = thead.querySelector("tr[data-theader='columns']");
-  if (!headerRow) {
-    headerRow = thead.appendChild(document.createElement("tr"));
-    headerRow.setAttribute("data-theader", "columns");
-  }
-
-  // Clear existing header cells except the first one
   headerRow.innerHTML = "";
 
   const emptyHeaderCell = document.createElement("th");
@@ -323,48 +374,32 @@ const updateGraphTable = () => {
     headerCell.scope = "col";
     headerRow.appendChild(headerCell);
   }
-
-  const tbody = graphTable.querySelector("tbody");
-  if (!tbody) {
-    console.error("Graph table tbody not found");
-    return;
-  }
-  tbody.innerHTML = "";
-
-  for (const control of controlMeds) {
-    const rowElement = document.createElement("tr");
-    const controlHeaderCell = document.createElement("th");
-    controlHeaderCell.textContent = control;
-    controlHeaderCell.scope = "row";
-    rowElement.appendChild(controlHeaderCell);
-    tbody.appendChild(rowElement);
-
-    for (const exposure of exposureMeds) {
-      const cellElement = document.createElement("td");
-      const rows = grid.get(control)?.get(exposure) || [];
-
-      rowElement.appendChild(cellElement);
-
-      if (rows.length === 0) {
-        cellElement.innerHTML = "<div></div>";
-        continue;
-      }
-
-      const graphId = `graph-${control.replace(/\s+/g, "-").toLowerCase()}-${exposure.replace(/\s+/g, "-").toLowerCase()}`;
-
-      cellElement.innerHTML = `<figure id="${graphId}"></figure>`;
-      renderGraph(graphId, rows);
-    }
-  }
 };
 
-const renderGraph = (
-  /** @type {string} */ graphId,
+const populateGraphTable = () => {
+
+  const graphTable = /** @type {HTMLTableElement} */ (
+    document.querySelector(".dashboard__graph-table")
+  );
+  if (!graphTable) {
+    console.error("Graph table container not found");
+    return;
+  }
+
+  const thead = graphTable.querySelector("thead") || graphTable.appendChild(document.createElement("thead"));
+  populateGraphTableHead(thead);
+    
+  const tbody = graphTable.querySelector("tbody") || graphTable.appendChild(document.createElement("tbody"));
+  populateGraphTableBody(tbody);
+
+};
+
+const createTraceFromRows = (
   /** @type {DataRow[]} */ rows,
-) => {
+) => /** @type {PlotlyTrace} */ {
   const pointColours = rows.map((row) => measureColours[row.measure] || "#333");
 
-  const trace = {
+  return {
     x: rows.map((row) => row.estimate),
     y: rows.map((row, index) => `${row.study}-${index}`),
 
@@ -389,60 +424,47 @@ const renderGraph = (
       (row) =>
         `${row.study}<br>${row.measure}: ${row.estimate} (${row.lowerCI} - ${row.highCI})`,
     ),
-    textposition: "bottom right"
+    textposition: "bottom right",
   };
+};
 
-  const layout = {
-    width: 200,
-    height: 200,
-    // autosize: false,
-    margin: { l: 10, r: 10, t: 15, b: 35 },
-    plot_bgcolor: "#f9f9f9",
-    shapes: [
-        {
-          type: "line",
-          xref: "x",
-          yref: "paper",
-          x0: 1.0,
-          y0: 0.0,
-          x1: 1.0,
-          y1: 1.0,
-          line: { color: "#6b0101", width: 1.2, dash: "dot" },
-        },
-      ],
-    xaxis: {
-      fixedrange: true,
-      range: [0.3, 2.0],
-      tickVals: [0.5, 1.0, 1.5, 2.0],
-      font: { size: 8 },
-      automargin: true,
-      autorange: "nonnegative",
-      
-    },
-    yaxis: {
-      fixedrange: true,
-      automargin: true,
-      autorange: "max",
-      showticklabels: false,
-    },
-  };
+const createGraph = (
+  /** @type {string} */ graphId,
+  /** @type {DataRow[]} */ rows
+) => {
+  const trace = createTraceFromRows(rows);
 
   Plotly.newPlot(graphId, [trace], layout, { displayModeBar: false })
-  .then(() => {
-    console.log('Test: Graph rendered successfully for', graphId);
-    resizeGraph(graphId);
-  });
+  .then(
+    () => {
+      resizeGraph(graphId);
+    },
+  );
+};
+
+const updateGraph = (
+  /** @type {string} */ graphId,
+  /** @type {DataRow[]} */ rows
+) => {
+  const trace = createTraceFromRows(rows);
+
+  Plotly.react(graphId, [trace], layout)
+  .then(
+    () => {
+      resizeGraph(graphId);
+    }
+  );
 };
 
 const resizeGraph = (/** @type {string} */ graphId) => {
   const graphDiv = document.querySelector(`#${graphId}`);
   if (!graphDiv) return;
 
-  const figure = graphDiv.closest("figure") || graphDiv.parentElement;
+  const td = graphDiv.closest("td");
 
-  if (!figure) return;
+  if (!td) return;
 
-  const rect = figure.getBoundingClientRect();
+  const rect = td.getBoundingClientRect();
 
   const size = Math.round(Math.min(rect.width, rect.height));
   const width = size;
@@ -450,6 +472,31 @@ const resizeGraph = (/** @type {string} */ graphId) => {
 
   Plotly.relayout(graphId, { width, height });
 };
+
+const installPlotResizeObserver = () => {
+  const graphTable = document.querySelector('#graph-table');
+
+  if (!graphTable) return;
+
+  let rafRef = 0;
+  const resizeAll = () => {
+    console.log('Resizing...');
+    const figures = graphTable.querySelectorAll("tbody td figure[id^=graph-]");
+
+    figures.forEach(fig => {
+      resizeGraph(fig.id);
+    });
+  }
+
+  const resizeObserver = new ResizeObserver(() => {
+    console.log('RO triggered');
+    cancelAnimationFrame(rafRef);
+    rafRef = requestAnimationFrame(resizeAll);
+  });
+
+  resizeObserver.observe(graphTable);
+  requestAnimationFrame(resizeAll);
+}
 
 const createFilterElement = (
   /** @type {FilterField} */ field,
@@ -588,19 +635,27 @@ const initialise = async () => {
     return acc;
   }, initialAcc);
 
-  const medicationOrder = ["GLP-1 RA", "Metformin", "SGLT2i", "Sulphonylureas", "DPP-4i", "Basal Insulin"];
+  const medicationOrder = [
+    "GLP-1 RA",
+    "Metformin",
+    "SGLT2i",
+    "Sulphonylureas",
+    "DPP-4i",
+    "Basal Insulin",
+  ];
 
   const uniqueOrdering = /** @type {Record<string, string[]>} */ ({
     exposureMeds: medicationOrder,
     controlMeds: medicationOrder,
   });
 
-
-  const orderSet = (/** @type {string} */ field, /** @type {string[]} */ values) => 
-    /** @type {string[]} */ {
+  const orderSet = (
+    /** @type {string} */ field,
+    /** @type {string[]} */ values,
+  ) => /** @type {string[]} */ {
     const order = uniqueOrdering[field];
     if (!order) return values.sort();
-    
+
     const orderedValues = [...values].sort((a, b) => {
       const indexA = order.indexOf(a);
       const indexB = order.indexOf(b);
@@ -645,12 +700,12 @@ const initialise = async () => {
   const exposureMeds = uniqueValues.exposureMeds;
   const controlMeds = uniqueValues.controlMeds;
 
-  /** @type {Map<string, Map<string, DataRow[]>>} */
-  state.grid = buildGrid(data, controlMeds, exposureMeds);
   state.exposureMeds = exposureMeds;
   state.controlMeds = controlMeds;
 
-  updateGraphTable();
+  populateGraphTable();
+
+  installPlotResizeObserver();
 
   createFilterElements(uniqueValues);
 
