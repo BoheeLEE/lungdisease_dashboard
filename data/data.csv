@@ -1,6 +1,6 @@
-link,study,disease,setting,outcome,group,exposureMeds,controlMeds,measure,estimate,lowerCI,highCI
-https://www.tandfonline.com/doi/full/10.2147/POR.S550543,Alc·zar-Navarrete 2026,COPD,Community,OCS,Total,GLP-1 RA,Non-drug,IRR,0.84,0.79,0.89
-https://www.tandfonline.com/doi/full/10.2147/POR.S550543,Alc·zar-Navarrete 2026,COPD,Hospital,Hospitalisation,Total,GLP-1 RA,Non-drug,IRR,0.61,0.51,0.74
+Ôªølink,study,disease,setting,outcome,group,exposureMeds,controlMeds,measure,estimate,lowerCI,highCI
+https://www.tandfonline.com/doi/full/10.2147/POR.S550543,Alc√°zar-Navarrete 2026,COPD,Community,OCS,Total,GLP-1 RA,Non-drug,IRR,0.84,0.79,0.89
+https://www.tandfonline.com/doi/full/10.2147/POR.S550543,Alc√°zar-Navarrete 2026,COPD,Hospital,Hospitalisation,Total,GLP-1 RA,Non-drug,IRR,0.61,0.51,0.74
 http://dx.doi.org/10.2147/COPD.S150047,Bishwakarma 2018,COPD,Hospital,ED and hospitalisation,COPD complexity: Low,Metformin,Non-drug,OR,0.66,0.52,0.85
 http://dx.doi.org/10.2147/COPD.S150047,Bishwakarma 2018,COPD,Hospital,ED and hospitalisation,COPD complexity: Moderate/High,Metformin,Non-drug,OR,0.82,0.64,1.04
 http://dx.doi.org/10.1016/j.diabres.2025.112122,Chang 2025,COPD,Hospital,"OCS, ED, or hospitalisation",Total,SGLT2i,DPP-4i,HR,0.69,0.52,0.92

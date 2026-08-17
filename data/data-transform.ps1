@@ -14,7 +14,7 @@ $jsonPath = Join-Path $scriptDir 'data.json'
 
 $numericColumns = @('estimate', 'lowerCI', 'highCI')
 
-$rows = Import-Csv -Path $csvPath
+$rows = Import-Csv -Path $csvPath -Encoding utf8
 
 foreach ($row in $rows) {
     foreach ($property in $row.PSObject.Properties) {
@@ -30,11 +30,6 @@ $records = foreach ($row in $rows) {
     }
     $row | Add-Member -MemberType NoteProperty -Name 'uniqueId' -Value ([guid]::NewGuid().ToString()) -PassThru
 }
-
-$records | ConvertTo-Json -Depth 5 | Set-Content -Path $jsonPath -Encoding utf8
-
-Write-Host "Wrote $($records.Count) records to $jsonPath"
-
 
 $records | ConvertTo-Json -Depth 5 | Set-Content -Path $jsonPath -Encoding utf8
 
