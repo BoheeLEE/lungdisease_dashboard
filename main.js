@@ -15,8 +15,6 @@ const measures = /** @type {const} */ (["HR", "OR", "RR", "IRR"]);
  * @property {string} setting
  * @property {string} outcome
  * @property {string} group
- * @property {string} group2
-//  * @property {string} group3
  * @property {string} exposureMeds
  * @property {string} controlMeds
  * @property {typeof measures[number]} measure
@@ -54,7 +52,6 @@ const FILTER_FIELDS = /** @type {const} */ ([
   "setting",
   "outcome",
   "group",
-  "group2",
   "measure",
   "exposureMeds",
   "controlMeds",
@@ -68,7 +65,6 @@ const TABLE_COLUMN_HEADINGS = /** @type {Record<keyof DataRow, string>} */ ({
   setting: "Setting",
   outcome: "Outcome",
   group: "Group",
-  group2: "Group 2",
   exposureMeds: "Exposure Medications",
   controlMeds: "Control Medications",
   measure: "Measure",
