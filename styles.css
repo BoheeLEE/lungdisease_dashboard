@@ -228,8 +228,6 @@ figure {
         [disease] minmax(8ch, min-content)
         [setting] minmax(10ch, max-content)
         [outcome] minmax(10ch, min-content)
-        [group] minmax(8ch, min-content)
-        [group2] minmax(12ch, min-content)
         [exposureMeds] minmax(14ch, min-content)
         [controlMeds] minmax(14ch, min-content)
         [measure] min-content
