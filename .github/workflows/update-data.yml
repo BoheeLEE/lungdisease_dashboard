@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - "data/*.csv"
+      - "data/*.ps1"
 
 permissions:
   contents: write
