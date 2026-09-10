@@ -289,7 +289,9 @@ const updateGraphTable = () => {
     document.querySelector("#graph-table")
   );
 
-  const figures = graphTable.querySelectorAll("tbody td figure[id^=graph-]");
+  const figures = /** @type {NodeListOf<HTMLElement>} */ (
+    graphTable.querySelectorAll("tbody td figure[id^=graph-]")
+  );
 
   for (const figure of figures) {
     const graphId = figure.id;
@@ -301,7 +303,10 @@ const updateGraphTable = () => {
     const rows = state.getFilteredData().filter(
       (row) => row.controlMeds === control && row.exposureMeds === exposure,
     );
-
+    figure.hidden = rows.length === 0;
+    if (rows.length === 0) {      
+      continue;
+    }
     updateGraph(graphId, rows);
   }
 }
@@ -328,7 +333,6 @@ const populateGraphTableBody = (/** @type {HTMLTableSectionElement} */ tbody) =>
       rowElement.appendChild(cellElement);
 
       if (rows.length === 0) {
-        cellElement.innerHTML = "<div></div>";
         continue;
       }
 

@@ -176,19 +176,19 @@ search {
         /* outline: 1px solid aqua; */
         padding: 0;
         border: none;
-        
+        background-color: var(--border-colour);       
 
-        > div {
-            background-color: var(--border-colour);
+        /* > div {
+            
             width: 100%;
             height: 100%;
             display: grid;
             place-items: center;
-        }
+        } */
 
         &:has(figure) {
 
-            &:has(+ td>figure) {
+            &:has(+ td>figure:not([hidden])) {
                 border-right: 1px dashed var(--border-colour);
             }
         }
