@@ -11,7 +11,7 @@
     "estimate": 0.84,
     "lowerCI": 0.79,
     "highCI": 0.89,
-    "uniqueId": "50480f98-fc47-44e1-afae-7257444a3008"
+    "uniqueId": "6b9b97ab-9dc1-49c4-b952-6b712590cf0d"
   },
   {
     "link": "https://www.tandfonline.com/doi/full/10.2147/POR.S550543",
@@ -25,7 +25,7 @@
     "estimate": 0.61,
     "lowerCI": 0.51,
     "highCI": 0.74,
-    "uniqueId": "44672ad6-74be-4d27-982e-05891a51c9a8"
+    "uniqueId": "2a85dfb0-7498-4809-9fed-f65b33fde7be"
   },
   {
     "link": "http://dx.doi.org/10.2147/COPD.S150047",
@@ -39,7 +39,7 @@
     "estimate": 0.66,
     "lowerCI": 0.52,
     "highCI": 0.85,
-    "uniqueId": "97953a34-f849-4044-8784-d4f35b255130"
+    "uniqueId": "17cfba10-b72f-4f1f-8397-ae514f073565"
   },
   {
     "link": "http://dx.doi.org/10.2147/COPD.S150047",
@@ -53,7 +53,7 @@
     "estimate": 0.82,
     "lowerCI": 0.64,
     "highCI": 1.04,
-    "uniqueId": "3f48ef79-b8d5-4648-8614-5e4f8a6d3a3d"
+    "uniqueId": "c7184e98-f76d-41c9-80db-bd9b666ef138"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.diabres.2025.112122",
@@ -67,7 +67,7 @@
     "estimate": 0.69,
     "lowerCI": 0.52,
     "highCI": 0.92,
-    "uniqueId": "dcbec952-0446-4620-9e2a-35e0681e589a"
+    "uniqueId": "d0cc8218-fe0e-4dae-b847-d216305cf360"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.diabres.2025.112122",
@@ -81,7 +81,7 @@
     "estimate": 0.35,
     "lowerCI": 0.2,
     "highCI": 0.61,
-    "uniqueId": "f40ae858-7255-44ff-b2ca-44be3d4c95ec"
+    "uniqueId": "3abe120f-489f-471b-b01e-81f7492ccaad"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.diabres.2025.112122",
@@ -95,7 +95,7 @@
     "estimate": 0.76,
     "lowerCI": 0.57,
     "highCI": 1.03,
-    "uniqueId": "0f015c67-4453-4f55-9ad8-f1cd0fc86d8c"
+    "uniqueId": "562ceaf7-69f2-457d-8d46-62e6e84d570b"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -109,7 +109,7 @@
     "estimate": 0.34,
     "lowerCI": 0.15,
     "highCI": 0.77,
-    "uniqueId": "935fb57f-cf48-4de6-8201-e35d38e839ba"
+    "uniqueId": "81eabab8-c1f5-4839-bbf1-6157cd248c49"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -123,7 +123,7 @@
     "estimate": 0.41,
     "lowerCI": 0.26,
     "highCI": 0.65,
-    "uniqueId": "05deaea6-76bc-48b7-b05f-6e92960de3af"
+    "uniqueId": "f46f75f2-cec8-41ca-92b0-f2f530e79a3e"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -137,7 +137,7 @@
     "estimate": 0.55,
     "lowerCI": 0.36,
     "highCI": 0.83,
-    "uniqueId": "7ad6ce4d-e04b-41a9-aa31-fbc2d6a172a8"
+    "uniqueId": "deaa2f64-ca7f-41b8-8328-36e9c83b9230"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -151,7 +151,7 @@
     "estimate": 0.39,
     "lowerCI": 0.26,
     "highCI": 0.58,
-    "uniqueId": "30bbdfa8-6b00-4ec3-9aa4-2528439a63b8"
+    "uniqueId": "6afee310-60cd-42ef-b227-5cc211c6d4b3"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -165,7 +165,7 @@
     "estimate": 0.69,
     "lowerCI": 0.35,
     "highCI": 1.39,
-    "uniqueId": "c84daa93-adb9-4a3a-9edc-b3b0ff1ab1fe"
+    "uniqueId": "2a705f3b-ca15-4184-97e2-0b0a0b222dff"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -179,7 +179,7 @@
     "estimate": 0.58,
     "lowerCI": 0.39,
     "highCI": 0.88,
-    "uniqueId": "0db47ff6-1cfb-4252-8baa-920491d3e953"
+    "uniqueId": "00f43c40-c1df-483a-92e6-e4c4aed9df47"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -193,7 +193,7 @@
     "estimate": 0.58,
     "lowerCI": 0.4,
     "highCI": 0.83,
-    "uniqueId": "1dbce282-fceb-4002-8525-db9af7ea0469"
+    "uniqueId": "fc52bc07-c979-4f3c-91bf-9db98d516e87"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-abstract/203/7/831/8490836?redirectedFrom=fulltext",
@@ -207,7 +207,7 @@
     "estimate": 0.53,
     "lowerCI": 0.38,
     "highCI": 0.74,
-    "uniqueId": "d9b52873-81a1-4efc-9a2b-4e8c4e6eb3ef"
+    "uniqueId": "bad90674-88bb-4dab-9c85-7d7780d2e6c5"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -221,7 +221,7 @@
     "estimate": 1.06,
     "lowerCI": 0.77,
     "highCI": 1.45,
-    "uniqueId": "87092457-dafc-4411-b37b-ec4e03f132d3"
+    "uniqueId": "5aedb58f-d3f0-4d97-9faf-9ca384c4219d"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -235,7 +235,7 @@
     "estimate": 0.78,
     "lowerCI": 0.48,
     "highCI": 1.27,
-    "uniqueId": "141854ff-15fe-4749-9727-81af4b2bbdee"
+    "uniqueId": "3a13d02d-b59b-408a-a1a1-f252d29dd1de"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -249,7 +249,7 @@
     "estimate": 1.12,
     "lowerCI": 0.83,
     "highCI": 1.52,
-    "uniqueId": "1c1fca07-8a9d-4f73-9624-432d9e224cbc"
+    "uniqueId": "b858900a-629f-43da-bfd9-383bc1c454c9"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -263,7 +263,7 @@
     "estimate": 0.77,
     "lowerCI": 0.55,
     "highCI": 1.09,
-    "uniqueId": "0c6eb88e-e395-43d7-9248-746488be3aa1"
+    "uniqueId": "b5613115-7a7c-45a6-a01e-59eb3a40bfbb"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -277,7 +277,7 @@
     "estimate": 0.52,
     "lowerCI": 0.39,
     "highCI": 0.69,
-    "uniqueId": "d512404a-3d5d-46e4-bfbc-5fb621b67fcd"
+    "uniqueId": "e1117dec-5769-4d20-9ea4-98baff13909b"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -291,7 +291,7 @@
     "estimate": 0.49,
     "lowerCI": 0.3,
     "highCI": 0.81,
-    "uniqueId": "ddc670a9-2bb0-484f-9b41-52162a11f6fb"
+    "uniqueId": "2350124f-434f-4735-baa0-c9a9de60e1b4"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -305,7 +305,7 @@
     "estimate": 0.38,
     "lowerCI": 0.25,
     "highCI": 0.58,
-    "uniqueId": "a467a262-37b1-4b7c-b553-10d5952e7231"
+    "uniqueId": "72dc9e49-08ef-49ce-8a6d-245932de5b23"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -319,7 +319,7 @@
     "estimate": 0.88,
     "lowerCI": 0.65,
     "highCI": 1.2,
-    "uniqueId": "3780d9ea-fa22-448c-950f-3ceb8ea50c02"
+    "uniqueId": "6118a114-0b6a-4c5f-bce0-2adb28c893d1"
   },
   {
     "link": "https://academic.oup.com/ajrccm/article-lookup/doi/10.1164/rccm.202303-0491OC",
@@ -333,7 +333,7 @@
     "estimate": 0.67,
     "lowerCI": 0.52,
     "highCI": 0.86,
-    "uniqueId": "7b13c644-5234-48ae-93b3-b8321b44072d"
+    "uniqueId": "82a904ac-ffad-4fba-b883-9e43c3e309ac"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.rmed.2024.107819",
@@ -347,7 +347,7 @@
     "estimate": 0.23,
     "lowerCI": 0.12,
     "highCI": 0.45,
-    "uniqueId": "a59532bf-9200-4393-a13d-55a71e7d4106"
+    "uniqueId": "d40935c4-855d-41b1-9f3d-0da46172e091"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.rmed.2024.107819",
@@ -361,7 +361,7 @@
     "estimate": 0.16,
     "lowerCI": 0.07,
     "highCI": 0.33,
-    "uniqueId": "9e396bc3-6457-459c-b0a3-70b09a56cde3"
+    "uniqueId": "9b4baed1-a1a5-4431-8963-1052a39ee8d6"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.jaip.2024.05.002",
@@ -375,7 +375,7 @@
     "estimate": 0.91,
     "lowerCI": 0.87,
     "highCI": 0.95,
-    "uniqueId": "e41b0512-6cbf-4e2d-8add-5d7c1e081d73"
+    "uniqueId": "b8dbddcc-eba4-4658-9413-17488d7a4740"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.jaip.2024.05.002",
@@ -389,7 +389,7 @@
     "estimate": 0.69,
     "lowerCI": 0.55,
     "highCI": 0.87,
-    "uniqueId": "f094b973-bc70-4c0d-8987-3e5e9e34df8f"
+    "uniqueId": "dc983ca1-d450-42f5-9623-d07f2afb72c4"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.jaip.2024.05.002",
@@ -403,7 +403,7 @@
     "estimate": 1.14,
     "lowerCI": 1.01,
     "highCI": 1.28,
-    "uniqueId": "b5f128bd-1c5d-4a76-88e5-856c9a9022f8"
+    "uniqueId": "4cb303c5-79db-4655-a205-fb829cc13cd7"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.jaip.2024.05.002",
@@ -417,7 +417,7 @@
     "estimate": 1.56,
     "lowerCI": 0.91,
     "highCI": 2.7,
-    "uniqueId": "d62971d9-7c5f-4685-9c04-e81f59f90394"
+    "uniqueId": "fd947133-790d-4002-8ecb-4bd36dc294c7"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.jaip.2024.05.002",
@@ -431,7 +431,7 @@
     "estimate": 1.0,
     "lowerCI": 0.97,
     "highCI": 1.03,
-    "uniqueId": "8ca20eb1-f244-4aea-b9ff-f88315b304a2"
+    "uniqueId": "63f0cddf-073f-4417-852c-29989e8cd6db"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.jaip.2024.05.002",
@@ -445,7 +445,7 @@
     "estimate": 1.09,
     "lowerCI": 0.91,
     "highCI": 1.3,
-    "uniqueId": "3bae425a-353f-47ac-a7a5-abf8670315d3"
+    "uniqueId": "cc067062-1c64-4c57-8f78-22beb398484c"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00757-2024",
@@ -459,7 +459,7 @@
     "estimate": 1.0,
     "lowerCI": 0.94,
     "highCI": 1.06,
-    "uniqueId": "9ecbfb01-1f5f-44f3-80ab-f2dac6724890"
+    "uniqueId": "1a4ced51-3cf8-4f5f-8de0-1657d12c25e6"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00757-2024",
@@ -473,7 +473,7 @@
     "estimate": 1.16,
     "lowerCI": 0.9,
     "highCI": 1.49,
-    "uniqueId": "504c7376-3ba9-4598-b178-10f0fd0100cc"
+    "uniqueId": "dbe4ff21-cb99-48d5-9562-23c5785a6fe3"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00757-2024",
@@ -487,7 +487,7 @@
     "estimate": 0.86,
     "lowerCI": 0.8,
     "highCI": 0.93,
-    "uniqueId": "7e0759ca-6fcd-43d6-8081-ccb4957759cd"
+    "uniqueId": "6a613128-38c2-4c3a-9249-9ce7cbe00a0d"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00757-2024",
@@ -501,7 +501,7 @@
     "estimate": 0.71,
     "lowerCI": 0.53,
     "highCI": 0.94,
-    "uniqueId": "9b41582d-3b76-44ef-9461-9b33d2501d64"
+    "uniqueId": "fad89a5f-c163-467d-ac01-059c186f6c55"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00757-2024",
@@ -515,7 +515,7 @@
     "estimate": 1.07,
     "lowerCI": 0.87,
     "highCI": 1.32,
-    "uniqueId": "0e3b83af-c714-45d0-a0f1-3e390ed6ce05"
+    "uniqueId": "0971d3a4-60d2-4a35-a198-4b4d25de40dd"
   },
   {
     "link": "https://www.dovepress.com/glucagon-like-peptide-1-receptor-agonists-vs-dipeptidyl-peptidase-4-in-peer-reviewed-fulltext-article-JAA",
@@ -529,7 +529,7 @@
     "estimate": 0.42,
     "lowerCI": 0.1,
     "highCI": 0.74,
-    "uniqueId": "63a7e07f-5317-496e-8674-b7dceb69c7a9"
+    "uniqueId": "13607637-26ca-4d74-99e6-b74383abd98e"
   },
   {
     "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2826086",
@@ -543,7 +543,7 @@
     "estimate": 0.68,
     "lowerCI": 0.62,
     "highCI": 0.75,
-    "uniqueId": "333a1945-1782-43d6-8465-b9fcbd4b805c"
+    "uniqueId": "eef899a8-292a-4372-8de0-451f266026b0"
   },
   {
     "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2826086",
@@ -557,7 +557,7 @@
     "estimate": 0.92,
     "lowerCI": 0.79,
     "highCI": 1.06,
-    "uniqueId": "d854299a-33e1-4488-a42d-27b494bf97eb"
+    "uniqueId": "a814534b-c68c-4e5b-84e2-7d63535dbc6e"
   },
   {
     "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2826086",
@@ -571,7 +571,7 @@
     "estimate": 0.66,
     "lowerCI": 0.52,
     "highCI": 0.84,
-    "uniqueId": "ed5f5935-db8d-4b15-9a5b-e06546a19b48"
+    "uniqueId": "9c09b450-1d91-4865-989e-df746f276ab1"
   },
   {
     "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2826086",
@@ -585,7 +585,7 @@
     "estimate": 0.86,
     "lowerCI": 0.69,
     "highCI": 1.07,
-    "uniqueId": "c62513ed-65df-4625-b4d9-ba14901caef2"
+    "uniqueId": "37dd179d-55a1-4873-ae57-8af7211b6b4f"
   },
   {
     "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2826086",
@@ -599,7 +599,7 @@
     "estimate": 0.76,
     "lowerCI": 0.67,
     "highCI": 0.85,
-    "uniqueId": "0d426241-dd26-4377-915f-b0d0e1096ff7"
+    "uniqueId": "28c2bb41-ca06-4ffd-a31c-521c236f203e"
   },
   {
     "link": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2826086",
@@ -613,7 +613,7 @@
     "estimate": 0.97,
     "lowerCI": 0.84,
     "highCI": 1.12,
-    "uniqueId": "c2e19e2d-fed7-499e-9788-09f864694a8d"
+    "uniqueId": "9a492f45-99e6-4484-86bf-2aed0e5c3ce9"
   },
   {
     "link": "http://dx.doi.org/10.1186/s12931-020-01547-1",
@@ -627,7 +627,7 @@
     "estimate": 0.21,
     "lowerCI": 0.07,
     "highCI": 0.63,
-    "uniqueId": "3db521ae-6b7e-4e43-a63a-7ef7cdafad21"
+    "uniqueId": "5eded996-89f3-4471-8598-621cce8163e8"
   },
   {
     "link": "http://dx.doi.org/10.1186/s12931-020-01547-1",
@@ -641,7 +641,7 @@
     "estimate": 0.62,
     "lowerCI": 0.26,
     "highCI": 1.44,
-    "uniqueId": "5886a6d0-0e28-4f48-a00d-85b7b0761737"
+    "uniqueId": "937b66b9-5b6e-485a-bc95-143562668afb"
   },
   {
     "link": "http://dx.doi.org/10.1186/s12931-020-01547-1",
@@ -655,7 +655,7 @@
     "estimate": 0.39,
     "lowerCI": 0.19,
     "highCI": 0.79,
-    "uniqueId": "f2a8669a-8c41-4404-bdf4-0316855e48fe"
+    "uniqueId": "92667ca1-09d3-4d5e-a10a-be2e5110171f"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.eclinm.2025.103332",
@@ -669,7 +669,7 @@
     "estimate": 0.91,
     "lowerCI": 0.82,
     "highCI": 1.0,
-    "uniqueId": "8381ee7a-044f-4a00-bd83-601d769df557"
+    "uniqueId": "8c31f203-74d8-49c7-82a4-61bf043572de"
   },
   {
     "link": "http://dx.doi.org/10.1016/j.eclinm.2025.103332",
@@ -683,7 +683,7 @@
     "estimate": 0.93,
     "lowerCI": 0.8,
     "highCI": 1.1,
-    "uniqueId": "20f42950-d0a7-4797-9799-baf07946e59d"
+    "uniqueId": "6cff38d0-d0a6-48f7-9004-228f1d479f39"
   },
   {
     "link": "http://dx.doi.org/10.1136/bmj-2022-071380",
@@ -697,7 +697,7 @@
     "estimate": 0.62,
     "lowerCI": 0.48,
     "highCI": 0.81,
-    "uniqueId": "a450c88f-53fc-46cc-8bc1-ee0da8790e57"
+    "uniqueId": "76304e0b-f0d6-4213-b21b-74bd05e09966"
   },
   {
     "link": "http://dx.doi.org/10.1136/bmj-2022-071380",
@@ -711,7 +711,7 @@
     "estimate": 1.02,
     "lowerCI": 0.83,
     "highCI": 1.27,
-    "uniqueId": "5b31c58f-36f9-444c-9dd2-f87ca1986c72"
+    "uniqueId": "78ac7d10-9e20-4cd6-964a-630b3026a297"
   },
   {
     "link": "http://dx.doi.org/10.1136/bmj-2022-071380",
@@ -725,7 +725,7 @@
     "estimate": 0.7,
     "lowerCI": 0.49,
     "highCI": 0.99,
-    "uniqueId": "f2253290-18f0-4e0d-b623-18602deaa878"
+    "uniqueId": "27a5c23e-e1e5-40d2-bb0d-456ae1c838d2"
   },
   {
     "link": "http://dx.doi.org/10.1136/bmj-2022-071380",
@@ -739,7 +739,7 @@
     "estimate": 0.63,
     "lowerCI": 0.43,
     "highCI": 0.94,
-    "uniqueId": "f9f62c3b-eb11-4c34-8296-55b9474bca34"
+    "uniqueId": "3b23a26b-01fe-48f6-837d-85ceefcee142"
   },
   {
     "link": "http://dx.doi.org/10.1136/bmj-2022-071380",
@@ -753,7 +753,7 @@
     "estimate": 0.91,
     "lowerCI": 0.82,
     "highCI": 1.02,
-    "uniqueId": "5465cd55-2d35-4ceb-8fb4-2d02a9c91b9f"
+    "uniqueId": "44695e25-4697-4d51-a9e7-d0ab9f42e9f2"
   },
   {
     "link": "http://dx.doi.org/10.1136/bmj-2022-071380",
@@ -767,7 +767,7 @@
     "estimate": 0.93,
     "lowerCI": 0.82,
     "highCI": 1.07,
-    "uniqueId": "f53257c6-4b46-4ecb-8afd-2d8c6a453c5e"
+    "uniqueId": "2081eb6d-c4cd-403e-a98b-793801f43fb9"
   },
   {
     "link": "http://dx.doi.org/10.1001/jamainternmed.2024.7811",
@@ -781,7 +781,7 @@
     "estimate": 0.81,
     "lowerCI": 0.76,
     "highCI": 0.86,
-    "uniqueId": "53fa02e8-becc-49d5-b499-7ff4354418e5"
+    "uniqueId": "f200ce5e-f4f5-4a2a-97a4-e7ad6ed6d6c4"
   },
   {
     "link": "http://dx.doi.org/10.1001/jamainternmed.2024.7811",
@@ -795,7 +795,7 @@
     "estimate": 1.06,
     "lowerCI": 1.0,
     "highCI": 1.12,
-    "uniqueId": "d3204d36-8c0f-45dc-afab-8c6027b81283"
+    "uniqueId": "5b278ec0-d978-4a31-ac42-976895918bd9"
   },
   {
     "link": "http://dx.doi.org/10.1001/jamainternmed.2024.7811",
@@ -809,7 +809,7 @@
     "estimate": 0.71,
     "lowerCI": 0.65,
     "highCI": 0.78,
-    "uniqueId": "c295bc7c-8473-44d5-8499-a0d9f16a1f44"
+    "uniqueId": "df0d4efb-80f8-416f-9822-a63696ff6e45"
   },
   {
     "link": "http://dx.doi.org/10.1001/jamainternmed.2024.7811",
@@ -823,7 +823,7 @@
     "estimate": 1.08,
     "lowerCI": 0.99,
     "highCI": 1.18,
-    "uniqueId": "1bd6526c-9a00-47ec-9b96-7afbec78ba4e"
+    "uniqueId": "ef9d8575-e410-47b6-9904-7343183a74a8"
   },
   {
     "link": "http://dx.doi.org/10.1001/jamainternmed.2024.7811",
@@ -837,7 +837,7 @@
     "estimate": 0.86,
     "lowerCI": 0.81,
     "highCI": 0.91,
-    "uniqueId": "dd80b1ed-1bba-4747-8e11-4dd95cd0b684"
+    "uniqueId": "e4459ea3-5e9e-4ea1-bf58-ac28b07e6ab0"
   },
   {
     "link": "http://dx.doi.org/10.1001/jamainternmed.2024.7811",
@@ -851,7 +851,7 @@
     "estimate": 0.82,
     "lowerCI": 0.76,
     "highCI": 0.89,
-    "uniqueId": "5b10ea44-c873-4e32-a179-f02006d82f42"
+    "uniqueId": "dddb7ad5-13aa-4678-a67b-0305091525b8"
   },
   {
     "link": "http://dx.doi.org/10.1186/s12931-020-01547-1",
@@ -865,7 +865,7 @@
     "estimate": 0.81,
     "lowerCI": 0.73,
     "highCI": 0.91,
-    "uniqueId": "2f6cc441-2d58-4301-b8b8-c6b9a7810810"
+    "uniqueId": "d164e60d-99c4-45d6-ab32-17d9ad3e4122"
   },
   {
     "link": "http://dx.doi.org/10.1186/s12931-020-01547-1",
@@ -879,7 +879,7 @@
     "estimate": 1.09,
     "lowerCI": 0.9,
     "highCI": 1.34,
-    "uniqueId": "92ee9d8c-bf11-4646-9943-bbba14d1366c"
+    "uniqueId": "e158ff57-b8f2-426c-8187-c37ba7f5eff3"
   },
   {
     "link": "http://dx.doi.org/10.1186/s12931-020-01547-1",
@@ -893,7 +893,7 @@
     "estimate": 0.93,
     "lowerCI": 0.83,
     "highCI": 1.04,
-    "uniqueId": "b9438195-5a21-4efb-994d-eae6d29a9906"
+    "uniqueId": "f57d7192-9e74-4a1a-82dd-ae29a812ce81"
   },
   {
     "link": "https://link.springer.com/article/10.1007/s13410-026-01660-9",
@@ -907,7 +907,7 @@
     "estimate": 0.42,
     "lowerCI": 0.31,
     "highCI": 0.57,
-    "uniqueId": "92c00274-51be-471a-89a8-0a72ad131dcb"
+    "uniqueId": "d56a2017-c7d3-4082-bbc9-cc884a2f8003"
   },
   {
     "link": "https://academic.oup.com/annalsats/article-lookup/doi/10.1513/AnnalsATS.201812-897OC",
@@ -921,7 +921,7 @@
     "estimate": 0.96,
     "lowerCI": 0.9,
     "highCI": 1.03,
-    "uniqueId": "c3b2bb70-4c89-4bf0-894b-1935d154937d"
+    "uniqueId": "1d945a27-3b9c-4a41-acea-ad88f4fce9ea"
   },
   {
     "link": "https://academic.oup.com/annalsats/article-lookup/doi/10.1513/AnnalsATS.201812-897OC",
@@ -935,7 +935,7 @@
     "estimate": 0.92,
     "lowerCI": 0.86,
     "highCI": 0.98,
-    "uniqueId": "82101fc6-027a-4978-8bd9-f0ff78a7acd9"
+    "uniqueId": "1028c654-753d-460e-94ed-2f563b0f982d"
   },
   {
     "link": "https://academic.oup.com/annalsats/article-lookup/doi/10.1513/AnnalsATS.201812-897OC",
@@ -949,7 +949,7 @@
     "estimate": 0.81,
     "lowerCI": 0.74,
     "highCI": 0.88,
-    "uniqueId": "4aecd188-7ede-4011-b45c-60e76de027af"
+    "uniqueId": "90e5f345-db56-477f-b183-fb91694a2249"
   },
   {
     "link": "https://academic.oup.com/annalsats/article-lookup/doi/10.1513/AnnalsATS.201812-897OC",
@@ -963,7 +963,7 @@
     "estimate": 0.67,
     "lowerCI": 0.5,
     "highCI": 0.91,
-    "uniqueId": "ad6e72d9-01bd-4a16-b4c5-c883214305e7"
+    "uniqueId": "a7c0efa9-d4f1-480f-8150-9dc7bcf76fae"
   },
   {
     "link": "https://linkinghub.elsevier.com/retrieve/pii/S2213219821007947",
@@ -977,7 +977,7 @@
     "estimate": 1.06,
     "lowerCI": 0.84,
     "highCI": 1.35,
-    "uniqueId": "983b5f91-9b03-4c1e-a894-f1e02c4a2378"
+    "uniqueId": "13bdffb8-257a-498f-b2c9-887acbdb5ef1"
   },
   {
     "link": "https://linkinghub.elsevier.com/retrieve/pii/S2213219821007947",
@@ -991,7 +991,7 @@
     "estimate": 0.31,
     "lowerCI": 0.16,
     "highCI": 0.59,
-    "uniqueId": "342ebb80-9f48-4f6a-adc9-b0a6b4aa732f"
+    "uniqueId": "e06edb24-b327-43ff-83e7-8669c7820807"
   },
   {
     "link": "https://linkinghub.elsevier.com/retrieve/pii/S2213219821007947",
@@ -1005,7 +1005,7 @@
     "estimate": 0.3,
     "lowerCI": 0.09,
     "highCI": 0.93,
-    "uniqueId": "34f09885-6853-4642-9911-90f302276d6c"
+    "uniqueId": "ff57e9c3-856b-44f1-a5b3-045c373a9bd2"
   },
   {
     "link": "http://dx.doi.org/10.1038/s41598-020-67338-2",
@@ -1019,7 +1019,7 @@
     "estimate": 1.34,
     "lowerCI": 1.26,
     "highCI": 1.43,
-    "uniqueId": "5cb201fa-6db7-4fe0-9816-9f7605a84456"
+    "uniqueId": "42e495a4-8100-4912-94f5-4bff101abf6e"
   },
   {
     "link": "http://dx.doi.org/10.1038/s41598-022-07294-1",
@@ -1033,7 +1033,7 @@
     "estimate": 0.9,
     "lowerCI": 0.72,
     "highCI": 1.13,
-    "uniqueId": "75aa232a-88a4-4395-84df-74fb82ebe2fe"
+    "uniqueId": "1aa5ef6e-3cc2-4877-89b7-510ec50b1839"
   },
   {
     "link": "http://dx.doi.org/10.1136/thorax-2023-221040",
@@ -1047,7 +1047,7 @@
     "estimate": 0.72,
     "lowerCI": 0.55,
     "highCI": 0.96,
-    "uniqueId": "295a4fa9-1347-40b1-89d7-d89e5dbe2fe3"
+    "uniqueId": "f8c48f6a-2d81-4eab-9d79-01b10aea9e8b"
   },
   {
     "link": "http://dx.doi.org/10.1136/thorax-2023-221040",
@@ -1061,7 +1061,7 @@
     "estimate": 1.06,
     "lowerCI": 0.86,
     "highCI": 1.31,
-    "uniqueId": "b8aabac6-b84c-4595-b476-bd0ef2d0b160"
+    "uniqueId": "4aba6efa-0bd5-49cc-8733-3704eae9583c"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00919-2024",
@@ -1075,7 +1075,7 @@
     "estimate": 0.73,
     "lowerCI": 0.62,
     "highCI": 0.85,
-    "uniqueId": "4b2ad4d9-0267-4c52-b753-f1252d0a4278"
+    "uniqueId": "547e0ea9-7f1d-40d9-a996-2915ac849629"
   },
   {
     "link": "http://dx.doi.org/10.1183/23120541.00919-2024",
@@ -1089,7 +1089,7 @@
     "estimate": 1.18,
     "lowerCI": 0.78,
     "highCI": 1.79,
-    "uniqueId": "b4aa687a-9543-475e-9a1d-8e35f28be2fd"
+    "uniqueId": "699ef9fc-3d2c-4e6a-8cbb-427d32158011"
   },
   {
     "link": "http://dx.doi.org/10.1513/AnnalsATS.202407-703OC",
@@ -1103,7 +1103,7 @@
     "estimate": 0.82,
     "lowerCI": 0.69,
     "highCI": 0.98,
-    "uniqueId": "902d309d-fdb2-4787-953e-d4b798972d32"
+    "uniqueId": "00c59d1a-a109-4412-b298-0a9f4d602115"
   },
   {
     "link": "http://dx.doi.org/10.1513/AnnalsATS.202407-703OC",
@@ -1117,7 +1117,7 @@
     "estimate": 0.96,
     "lowerCI": 0.7,
     "highCI": 1.13,
-    "uniqueId": "240c76f3-7852-4778-9580-2be88f518a0f"
+    "uniqueId": "9fb928a3-be29-4740-8af1-613a71710b43"
   },
   {
     "link": "http://dx.doi.org/10.1513/AnnalsATS.202407-703OC",
@@ -1131,7 +1131,7 @@
     "estimate": 0.83,
     "lowerCI": 0.56,
     "highCI": 1.22,
-    "uniqueId": "98724a6c-e90f-4aae-be55-7423a80e3ce8"
+    "uniqueId": "e78de04d-cadf-4eff-8204-f1a0266799bd"
   },
   {
     "link": "https://academic.oup.com/jcem/article-lookup/doi/10.1210/clinem/dgab818",
@@ -1145,7 +1145,7 @@
     "estimate": 0.71,
     "lowerCI": 0.62,
     "highCI": 0.81,
-    "uniqueId": "f87a257e-ef83-44f3-af07-7c9605e29431"
+    "uniqueId": "a553f528-0761-48f9-b0d3-6ed08a486b3a"
   },
   {
     "link": "https://academic.oup.com/jcem/article-lookup/doi/10.1210/clinem/dgab818",
@@ -1159,7 +1159,7 @@
     "estimate": 0.57,
     "lowerCI": 0.42,
     "highCI": 0.77,
-    "uniqueId": "546fa899-3b30-443e-8823-e9f16622acdf"
+    "uniqueId": "8ffe130a-b092-491a-9348-68c00296600d"
   },
   {
     "link": "https://onlinelibrary.wiley.com/doi/10.1002/pds.5192",
@@ -1173,7 +1173,7 @@
     "estimate": 0.48,
     "lowerCI": 0.28,
     "highCI": 0.82,
-    "uniqueId": "5ae7ef02-c74e-425b-895a-bcf18cb25396"
+    "uniqueId": "64ded6c0-7cab-4784-b6b8-a8a4d464bc51"
   },
   {
     "link": "https://dom-pubs.pericles-prod.literatumonline.com/doi/10.1111/dom.12431",
@@ -1187,7 +1187,7 @@
     "estimate": 0.8,
     "lowerCI": 0.5,
     "highCI": 1.29,
-    "uniqueId": "260bcf44-5e09-4dfa-b8c1-7bfeee2e7804"
+    "uniqueId": "98a004b3-059d-4724-8c6e-23f51a795e13"
   },
   {
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555874/",
@@ -1201,7 +1201,7 @@
     "estimate": 1.32,
     "lowerCI": 0.77,
     "highCI": 2.28,
-    "uniqueId": "215ade80-1bd6-47f0-9fba-68827341a623"
+    "uniqueId": "227160d9-fe5a-4641-8145-34294091344a"
   },
   {
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555874/",
@@ -1215,7 +1215,7 @@
     "estimate": 1.2,
     "lowerCI": 0.88,
     "highCI": 1.66,
-    "uniqueId": "86464ac2-9551-4325-948b-aac537eb6d25"
+    "uniqueId": "6b4bc8e5-6137-4844-8f08-a78291409c13"
   },
   {
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555874/",
@@ -1229,7 +1229,7 @@
     "estimate": 0.99,
     "lowerCI": 0.84,
     "highCI": 1.18,
-    "uniqueId": "4205aa5c-7047-4b50-b909-6c2137d835d3"
+    "uniqueId": "ab56b283-27ae-4eef-9261-68634ddb7e0e"
   },
   {
     "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5555874/",
@@ -1243,7 +1243,7 @@
     "estimate": 0.97,
     "lowerCI": 0.84,
     "highCI": 1.11,
-    "uniqueId": "c57c6e23-95f7-4c8b-8a39-28b10f268062"
+    "uniqueId": "e8e6e683-6b45-4ac4-a53e-dae0be9a86c0"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1257,7 +1257,7 @@
     "estimate": 0.69,
     "lowerCI": 0.67,
     "highCI": 0.72,
-    "uniqueId": "cce09004-2e8c-4767-8958-efd97d48761b"
+    "uniqueId": "b4bdc881-48b8-4775-b1f0-2e487e7f0cd3"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1271,7 +1271,7 @@
     "estimate": 0.78,
     "lowerCI": 0.75,
     "highCI": 0.8,
-    "uniqueId": "130bcb5e-93f9-4dd7-9991-b6da65995f45"
+    "uniqueId": "9d8ed5b0-d995-4048-94f0-13741ab70e40"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1285,7 +1285,7 @@
     "estimate": 0.56,
     "lowerCI": 0.54,
     "highCI": 0.58,
-    "uniqueId": "a5564343-4e03-44a0-8555-5ab16d71adcb"
+    "uniqueId": "b39222d5-0215-429a-8661-22eab16fa18e"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1299,7 +1299,7 @@
     "estimate": 0.6,
     "lowerCI": 0.58,
     "highCI": 0.62,
-    "uniqueId": "d6d3df31-a506-4123-bde9-ccae4ae44ad7"
+    "uniqueId": "bb64b934-d353-4a42-bbbd-a9a8180f365d"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1313,7 +1313,7 @@
     "estimate": 0.89,
     "lowerCI": 0.86,
     "highCI": 0.92,
-    "uniqueId": "7ac44f65-365d-4e60-bae9-e956ca95ea24"
+    "uniqueId": "b6378f0b-8446-4f14-ba9b-47a76e341339"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1327,7 +1327,7 @@
     "estimate": 1.27,
     "lowerCI": 1.23,
     "highCI": 1.32,
-    "uniqueId": "99c2f99b-b7ff-4a90-b616-a2d0145c6461"
+    "uniqueId": "f44173c8-7b74-4a88-9f66-500daac58b99"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1341,7 +1341,7 @@
     "estimate": 0.75,
     "lowerCI": 0.73,
     "highCI": 0.77,
-    "uniqueId": "9ba8af60-90b5-4545-90ae-b52bba545b5d"
+    "uniqueId": "82c1b967-a44b-4fca-b5f6-aec732f534f2"
   },
   {
     "link": "https://thorax.bmj.com/content/80/1/32",
@@ -1355,7 +1355,7 @@
     "estimate": 0.75,
     "lowerCI": 0.73,
     "highCI": 0.78,
-    "uniqueId": "ab7f3a83-a847-4cde-91bf-f12940cb789c"
+    "uniqueId": "e2bc4639-5625-4ccc-98c6-63a8d5a6011c"
   },
   {
     "link": "https://link.springer.com/article/10.1186/s12916-023-02765-2",
@@ -1369,7 +1369,7 @@
     "estimate": 0.61,
     "lowerCI": 0.56,
     "highCI": 0.66,
-    "uniqueId": "55ceba85-15aa-405d-8b52-fb1a44f2de4f"
+    "uniqueId": "b0f72799-90fb-4495-937e-6f80f875c90e"
   },
   {
     "link": "https://www.mdpi.com/2075-4426/11/10/984",
@@ -1377,13 +1377,13 @@
     "disease": "Community-Acquired Pneumonia",
     "setting": "Hospital",
     "outcome": "Hospitalised CAP",
-    "exposureMeds": "Metformin + SU",
+    "exposureMeds": "Metformin + Sulphonylureas",
     "controlMeds": "No treatment",
     "measure": "OR",
     "estimate": 1.7,
     "lowerCI": 1.08,
     "highCI": 2.69,
-    "uniqueId": "b811ff53-495e-4916-bd02-5e625aa59765"
+    "uniqueId": "0b90793e-22ab-40f9-a534-49c47c458b24"
   },
   {
     "link": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14142",
@@ -1397,7 +1397,7 @@
     "estimate": 0.76,
     "lowerCI": 0.61,
     "highCI": 0.95,
-    "uniqueId": "825e7002-5cc9-4126-813d-f2f5ebd905a9"
+    "uniqueId": "9f46f9e2-e151-489b-ba34-d538e6d1a508"
   },
   {
     "link": "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.14142",
@@ -1411,7 +1411,7 @@
     "estimate": 0.65,
     "lowerCI": 0.41,
     "highCI": 1.04,
-    "uniqueId": "dd574f11-c8ab-440f-8b59-98b4f3215604"
+    "uniqueId": "9757a293-df50-499f-a1b8-2de21ea2d7af"
   },
   {
     "link": "linkinghub.elsevier.com/retrieve/pii/S1262-3636(22)00049-0",
@@ -1425,7 +1425,7 @@
     "estimate": 0.63,
     "lowerCI": 0.55,
     "highCI": 0.72,
-    "uniqueId": "498caf5d-c976-4648-988b-e6dd0a7e1743"
+    "uniqueId": "8a79cf40-d2f9-4f52-bcc3-f967321db561"
   },
   {
     "link": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13308",
@@ -1439,7 +1439,7 @@
     "estimate": 0.63,
     "lowerCI": 0.53,
     "highCI": 0.75,
-    "uniqueId": "70353526-0cb6-4df7-a965-1fcea3b08ee6"
+    "uniqueId": "66728268-790b-4f7a-99a6-325f1381fbfb"
   },
   {
     "link": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13308",
@@ -1453,7 +1453,7 @@
     "estimate": 0.72,
     "lowerCI": 0.68,
     "highCI": 0.77,
-    "uniqueId": "f3e9edc9-ab67-438b-ab65-70c50b838e1e"
+    "uniqueId": "d0f77fd8-7cf3-4815-a736-e86fc59b9640"
   },
   {
     "link": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13308",
@@ -1467,7 +1467,7 @@
     "estimate": 1.6,
     "lowerCI": 1.53,
     "highCI": 1.66,
-    "uniqueId": "2c8a9c2c-711a-4c0d-a0a9-4dcfaa692a07"
+    "uniqueId": "82f85ee1-5734-4d98-bc9e-6a2c1878ba73"
   },
   {
     "link": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13308",
@@ -1481,7 +1481,7 @@
     "estimate": 1.26,
     "lowerCI": 1.24,
     "highCI": 1.28,
-    "uniqueId": "a156a521-9b55-42d3-9fee-5f22f32f448a"
+    "uniqueId": "d1b8716f-72cb-4041-ab9e-9826b18efcb8"
   },
   {
     "link": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13308",
@@ -1495,7 +1495,7 @@
     "estimate": 0.94,
     "lowerCI": 0.86,
     "highCI": 1.03,
-    "uniqueId": "8821db99-91a8-4c15-a765-9cdd1704100b"
+    "uniqueId": "7a710b12-0276-47bd-8fed-e55851cace3a"
   },
   {
     "link": "https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13308",
@@ -1509,7 +1509,7 @@
     "estimate": 1.06,
     "lowerCI": 1.02,
     "highCI": 1.1,
-    "uniqueId": "a6fd2480-91cb-4a80-94bb-d1357c1f43f8"
+    "uniqueId": "a262652f-4bc4-4dc0-853f-fa919660a5e3"
   },
   {
     "link": "https://www.scopus.com/pages/publications/105042343921?origin=resultslist",
@@ -1523,7 +1523,7 @@
     "estimate": 0.71,
     "lowerCI": 0.59,
     "highCI": 0.86,
-    "uniqueId": "5fb8dde0-72f9-4a05-98a3-41e1062614f3"
+    "uniqueId": "8a0844eb-4db2-443e-b7b8-07e1b9e68b56"
   },
   {
     "link": "https://doi.org/10.1038/s41591-024-03412-w",
@@ -1537,7 +1537,7 @@
     "estimate": 0.84,
     "lowerCI": 0.82,
     "highCI": 0.86,
-    "uniqueId": "c30a7ad4-3835-485a-b0de-7f893420b687"
+    "uniqueId": "9aa73b66-55fd-4954-97ab-5e60a00a695f"
   },
   {
     "link": "https://doi.org/10.1038/s41591-024-03412-w",
@@ -1551,7 +1551,7 @@
     "estimate": 1.02,
     "lowerCI": 0.99,
     "highCI": 1.05,
-    "uniqueId": "01d8bbb8-5eea-49bf-8a9b-a37d783a8512"
+    "uniqueId": "7acb3edc-524f-46c8-9cd3-0fe13967d011"
   },
   {
     "link": "https://doi.org/10.1038/s41591-024-03412-w",
@@ -1565,7 +1565,7 @@
     "estimate": 0.82,
     "lowerCI": 0.76,
     "highCI": 0.86,
-    "uniqueId": "2058e3c7-e3df-4b74-93f3-80b546c21c0d"
+    "uniqueId": "27860953-9072-4c02-bb32-f52b18421de7"
   },
   {
     "link": "https://doi.org/10.1038/s41591-024-03412-w",
@@ -1579,7 +1579,7 @@
     "estimate": 0.88,
     "lowerCI": 0.84,
     "highCI": 0.91,
-    "uniqueId": "5f19d8c2-2c22-499f-ac26-f42cb2a282af"
+    "uniqueId": "c6de7faf-9686-441e-a336-5fac6a312855"
   },
   {
     "link": "https://doi.org/10.1007/s00125-021-05452-0",
@@ -1593,7 +1593,7 @@
     "estimate": 0.63,
     "lowerCI": 0.52,
     "highCI": 0.77,
-    "uniqueId": "2cb46ebb-f9dd-4776-8c60-e40ae6c00fff"
+    "uniqueId": "92e7bd8b-e94d-40af-a5e7-c3ab1900cae7"
   },
   {
     "link": "https://doi.org/10.1007/s00125-021-05452-0",
@@ -1607,7 +1607,7 @@
     "estimate": 0.49,
     "lowerCI": 0.33,
     "highCI": 0.73,
-    "uniqueId": "7398411f-1f08-42eb-bc65-a8043933f584"
+    "uniqueId": "b2317e2c-09af-4d60-b780-280454a6559b"
   },
   {
     "link": "https://doi.org/10.1007/s00125-021-05452-0",
@@ -1621,7 +1621,7 @@
     "estimate": 0.77,
     "lowerCI": 0.54,
     "highCI": 1.09,
-    "uniqueId": "c2fb9728-e4bc-4b35-8e99-6afdb80ded60"
+    "uniqueId": "b40220ca-938a-4a60-9599-85b600de9eb9"
   },
   {
     "link": "https://doi.org/10.1007/s00125-021-05452-0",
@@ -1635,7 +1635,7 @@
     "estimate": 0.71,
     "lowerCI": 0.33,
     "highCI": 1.55,
-    "uniqueId": "adeb9608-12f9-4aad-b5cf-97a96c7cad52"
+    "uniqueId": "c5821551-eb3a-48e2-8b2c-a4abd38280ea"
   },
   {
     "link": "https://www.nature.com/articles/s41598-022-07294-1",
@@ -1649,7 +1649,7 @@
     "estimate": 0.89,
     "lowerCI": 0.84,
     "highCI": 0.94,
-    "uniqueId": "158802b8-c763-4779-90bd-37bba23eeb1c"
+    "uniqueId": "d568c2f5-e80e-4657-8ff4-8a34e9ad2602"
   },
   {
     "link": "https://www.nature.com/articles/s41598-022-07294-1",
@@ -1663,7 +1663,7 @@
     "estimate": 0.65,
     "lowerCI": 0.59,
     "highCI": 0.73,
-    "uniqueId": "39064d48-ea70-4d33-8da8-da3ddb6ef079"
+    "uniqueId": "1fbe8c38-5084-4d02-8473-63839ad4d4f9"
   },
   {
     "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139367",
@@ -1677,7 +1677,7 @@
     "estimate": 0.97,
     "lowerCI": 0.68,
     "highCI": 1.37,
-    "uniqueId": "de04ec89-c831-4b66-bae4-7c6bbb24f75f"
+    "uniqueId": "ad836b51-0bd3-47ec-b584-16d46068236b"
   },
   {
     "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139367",
@@ -1691,6 +1691,6 @@
     "estimate": 1.0,
     "lowerCI": 0.55,
     "highCI": 1.81,
-    "uniqueId": "890ce589-44fa-45ea-9641-7ce5399f9601"
+    "uniqueId": "edf09b3c-bb00-4c54-9748-ac680f02b12f"
   }
 ]
