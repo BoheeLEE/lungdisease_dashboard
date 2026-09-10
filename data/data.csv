@@ -112,7 +112,6 @@ https://doi.org/10.1038/s41591-024-03412-w,Xie 2025,Community-Acquired Pneumonia
 https://doi.org/10.1038/s41591-024-03412-w,Xie 2025,Community-Acquired Pneumonia,Any,Any incidence,GLP1-RA,SGLT2i,HR,1.02,0.99,1.05
 https://doi.org/10.1038/s41591-024-03412-w,Xie 2025,Community-Acquired Pneumonia,Any,Any incidence,GLP1-RA,Sulphonylureas,HR,0.82,0.76,0.86
 https://doi.org/10.1038/s41591-024-03412-w,Xie 2025,Community-Acquired Pneumonia,Any,Any incidence,GLP1-RA,DPP4i,HR,0.88,0.84,0.91
-https://doi.org/10.1038/s41591-024-03412-w,Xie 2025,Community-Acquired Pneumonia,Any,Any incidence,GLP1-RA,"DPP4i, SGLT2i and/or SU",HR,0.9,0.88,0.92
 https://doi.org/10.1007/s00125-021-05452-0,Yang 2021,Community-Acquired Pneumonia,Hospital,Hospitalised CAP,Metformin,Mixed T2D drugs,HR,0.63,0.52,0.77
 https://doi.org/10.1007/s00125-021-05452-0,Yang 2021,Community-Acquired Pneumonia,Hospital,Pneumonia-related deaths ,Metformin,Mixed T2D drugs ,HR,0.49,0.33,0.73
 https://doi.org/10.1007/s00125-021-05452-0,Yang 2021,Community-Acquired Pneumonia,Hospital,Hospitalised CAP,Metformin,Sulphonylureas,HR,0.77,0.54,1.09
@@ -121,5 +120,3 @@ https://www.nature.com/articles/s41598-022-07294-1,Yen 2022,Community-Acquired P
 https://www.nature.com/articles/s41598-022-07294-1,Yen 2022,Community-Acquired Pneumonia,Hospital,Hospitalised bacterial pneumonia,Metformin,Sulphonylureas,HR,0.65,0.59,0.73
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139367,Zanden 2015,Community-Acquired Pneumonia,Hospital,Hospitalised CAP,GLP-1 RA,Mixed T2D drugs,HR,0.97,0.68,1.37
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139367,Zanden 2015 ,Community-Acquired Pneumonia,Hospital,Hospitalised CAP,DPP-4i,Mixed T2D drugs,HR,1.00,0.55,1.81
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139367,Zanden 2015,Community-Acquired Pneumonia,Hospital,Hospitalised CAP,DPP-4i (Current use ≤2 months before),Mixed T2D drugs,HR,0.70,0.55,0.91
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139367,Zanden 2015,Community-Acquired Pneumonia,Hospital,Hospitalised CAP,DPP-4i (Recent use 3–8 months before),Mixed T2D drugs,HR,1.04,0.59,1.85
