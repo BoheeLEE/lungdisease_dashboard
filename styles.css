@@ -133,6 +133,9 @@ search {
     display: grid;
     grid-template-columns: max-content repeat(var(--num-columns, 3), minmax(20ch, 1fr));
 
+    max-width: 100%;
+    max-height: 60svh;
+    overflow: auto;
     thead,
     tbody,
     tr {
@@ -141,13 +144,23 @@ search {
         grid-column: 1 / -1;
     }
 
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: var(--pico-background-color);
+    }
+
     th {
         border-bottom: none;
     }
     th[scope="row"] {
         display: grid;
         align-items: center;
-
+        left: 0;
+        position: sticky;
+        z-index: 5;
+        background-color: var(--pico-background-color);
     }
 
     th[scope="col"] {
@@ -167,6 +180,13 @@ search {
 
     tr:has(td) {
         border-bottom: 1px solid var(--border-colour);
+    }
+
+    thead th:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 15;
+        background-color: var(--pico-background-color);
     }
 
     td {
